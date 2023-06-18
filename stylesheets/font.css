@@ -1,0 +1,48 @@
+@font-face {
+  src: url('../font/CirceRounded-Alt-Bold.otf');
+  font-family: Circe Rounded Alt Bold;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  src: url('../font/CirceRounded-Alt-ExtraBold.otf');
+  font-family: Circe Rounded Alt ExtraBold;
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  src: url('../font/CirceRounded-Bold.otf');
+  font-family: Circe Rounded Bold;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  src: url('../font/CirceRounded-ExtraBold.otf');
+  font-family: Circe Rounded ExtraBold;
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  src: url('../font/CirceRounded-ExtraLight.otf');
+  font-family: Circe Rounded ExtraLight;
+  font-weight: 250;
+  font-style: normal;
+}
+@font-face {
+  src: url('../font/CirceRounded-Light.otf');
+  font-family: Circe Rounded Light;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  src: url('../font/CirceRounded-Regular.otf');
+  font-family: Circe Rounded Regular;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url('../font/CirceRounded-Thin.otf');
+  font-family: Circe Rounded Thin;
+  font-weight: 200;
+  font-style: normal;
+}

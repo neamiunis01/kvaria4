@@ -1,0 +1,164 @@
+body {
+  background: #D0DAFF;
+}
+.back:hover {
+  border-bottom: .2vw solid white;
+}
+@media all and (min-width: 1024px) {
+  .k1 {
+    position: absolute;
+    top: 0vw;
+    left: 2vw;
+  }
+  .k2 {
+    position: absolute;
+    top: 27vw;
+    left: 28vw;
+  }
+  .k3 {
+    position: absolute;
+    top: 24vw;
+    left: 51vw;
+  }
+  .k4 {
+    position: absolute;
+    top: 5vw;
+    left: 76vw;
+  }
+  .k5 {
+    position: absolute;
+    top: 39.7vw;
+    left: 76.6vw;
+  }
+  .k6 {
+    position: absolute;
+    top: 32vw;
+    left: 0vw;
+  }
+  .k7 {
+    position: absolute;
+    top: 9vw;
+    left: 39vw;
+  }
+  .k8 {
+    position: absolute;
+    top: 0vw;
+    left: 54vw;
+  }
+  .k9 {
+    position: absolute;
+    top: 45vw;
+    left: 15vw;
+  }
+  .k10 {
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+  }
+  .error_oops {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 21vw auto;
+  }
+  .error {
+    font-family: Circe Rounded Bold;
+    font-size: 128px;
+    font-weight: 700;
+    top: 21.5vw;
+    left: 42.5vw;
+  }
+  .oops {
+    font-family: Circe Rounded Regular;
+    font-style: normal;
+    font-size: 51px;
+    font-weight: 400;
+  }
+  .back {
+    font-family: Circe Rounded Regular;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 15vw;
+    color: white;
+  }
+}
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  .k1 {
+    position: absolute;
+    top: 0vw;
+    left: 2vw;
+  }
+  .k2 {
+    position: absolute;
+    top: 27vw;
+    left: 28vw;
+  }
+  .k3 {
+    position: absolute;
+    top: 24vw;
+    left: 51vw;
+  }
+  .k4 {
+    position: absolute;
+    top: 5vw;
+    left: 76vw;
+  }
+  .k5 {
+    position: absolute;
+    top: 39.7vw;
+    left: 76.6vw;
+  }
+  .k6 {
+    position: absolute;
+    top: 32vw;
+    left: 0vw;
+  }
+  .k7 {
+    position: absolute;
+    top: 9vw;
+    left: 39vw;
+  }
+  .k8 {
+    position: absolute;
+    top: 0vw;
+    left: 54vw;
+  }
+  .k9 {
+    position: absolute;
+    top: 45vw;
+    left: 15vw;
+  }
+  .k10 {
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+  }
+  .error_oops {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 21vw auto;
+  }
+  .error {
+    font-family: Circe Rounded Bold;
+    font-size: 128px;
+    font-weight: 700;
+    top: 21.5vw;
+    left: 42.5vw;
+  }
+  .oops {
+    font-family: Circe Rounded Regular;
+    font-style: normal;
+    font-size: 51px;
+    font-weight: 400;
+  }
+  .back {
+    font-family: Circe Rounded Regular;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 15vw;
+    color: white;
+  }
+}
