@@ -127,11 +127,15 @@ body {
     font-weight: 400;
   }
   .back {
+    text-decoration: none;
     font-family: Circe Rounded Regular;
     font-size: 2.5vw;
     font-weight: 400;
     line-height: 15vw;
     color: white;
+  }
+  .back:hover {
+    border-bottom: .2vw solid white;
   }
 }
 @media all and (min-width: 600px) and (max-width: 1023px) {

@@ -9,131 +9,115 @@ canvas {
   position: absolute;
   width: 37.8vw;
   height: 12.7vw;
-  top: 50vw;
-  left: 56vw;
   background: url(../images/kva_xl.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.kva_xl_anim {
-  animation: kva_xl_anim 2s steps(1) alternate infinite;
+.xl_anim {
+  animation: xl_anim 4s steps(1) infinite;
 }
-@keyframes kva_xl_anim {
-  0% {top: 10vw; left: 10vw;}
-  10% {top: 50vw; left: 20vw;}
-  20% {top: 30vw; left: 50vw;}
-  30% {top: 15vw; left: 30vw;}
-  40% {top: 45vw; left: 5vw;}
-  50% {top: 10vw; left: 10vw;}
-  60% {top: 10vw; left: 40vw;}
-  70% {top: 35vw; left: 55vw;}
-  80% {top: 50vw; left: 25vw;}
-  90% {top: 5vw; left: 10vw;}
-  99% {top: 30vw; left: 40vw;}
+@keyframes xl_anim {
+  10% { top: 40%; left: 10%; }
+  20% { top: 20%; left: 40%; }
+  30% { top: 35%; left: 10%; }
+  40% { top: 27%; left: 62%; }
+  50% { top: 60%; left: 10%; }
+  60% { top: 75%; left: 62%; }
+  70% { top: 32%; left: 35%; }
+  80% { top: 70%; left: 25%; }
+  90% { top: 45%; left: 58%; }
 }
 .kva_l {
   position: absolute;
   width: 33vw;
   height: 11vw;
-  top: 50vw;
-  left: 22vw;
   background: url(../images/kva_l.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.kva_l_anim {
-  animation: kva_l_anim 2s steps(1) alternate infinite;
+.l_anim {
+  animation: l_anim 3s steps(1) infinite;
 }
-@keyframes kva_l_anim {
-  0% {top: 10vw; left: 10vw;}
-  10% {top: 50vw; left: 20vw;}
-  20% {top: 30vw; left: 50vw;}
-  30% {top: 15vw; left: 30vw;}
-  40% {top: 45vw; left: 5vw;}
-  50% {top: 10vw; left: 10vw;}
-  60% {top: 10vw; left: 40vw;}
-  70% {top: 35vw; left: 55vw;}
-  80% {top: 50vw; left: 25vw;}
-  90% {top: 5vw; left: 10vw;}
-  99% {top: 30vw; left: 40vw;}
+@keyframes l_anim {
+  0% {top: 40%; left: 20%;}
+  10% {top: 65%; left: 54%;}
+  20% {top: 25%; left: 32%;}
+  30% {top: 5%; left: 13%;}
+  40% {top: 60%; left: 43%;}
+  50% {top: 48%; left: 28%;}
+  60% {top: 6%; left: 62%;}
+  70% {top: 21%; left: 35%;}
+  80% {top: 5%; left: 25%;}
+  90% {top: 70%; left: 7%;}
 }
 .kva_m {
   position: absolute;
   width: 24vw;
   height: 8vw;
-  top: 50vw;
-  left: 4vw;
   background: url(../images/kva_m.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.kva_m_anim {
-  animation: kva_m_anim 2s steps(1) alternate infinite;
+.m_anim {
+  animation: m_anim 5s steps(1) infinite;
 }
-@keyframes kva_m_anim {
-  0% {top: 10vw; left: 10vw;}
-  10% {top: 50vw; left: 20vw;}
-  20% {top: 30vw; left: 50vw;}
-  30% {top: 15vw; left: 30vw;}
-  40% {top: 45vw; left: 5vw;}
-  50% {top: 10vw; left: 10vw;}
-  60% {top: 10vw; left: 40vw;}
-  70% {top: 35vw; left: 55vw;}
-  80% {top: 50vw; left: 25vw;}
-  90% {top: 5vw; left: 10vw;}
-  99% {top: 30vw; left: 40vw;}
+@keyframes m_anim {
+  0% {top: 10%;left: 62%;}
+  10% {top: 45%;left: 2%;}
+  20% {top: 6%;left: 43%;}
+  30% {top: 70%;left: 70%;}
+  40% {top: 45%;left: 76%;}
+  50% {top: 39%;left: 14%;}
+  60% {top: 10%;left: 37%;}
+  70% {top: 60%;left: 52%;}
+  80% {top: 23%;left: 21%;}
+  90% {top: 54%;left: 17%;}
 }
 .kva_s {
   position: absolute;
   width: 21.3vw;
   height: 7.3vw;
-  top: 50vw;
-  left: 24vw;
   background: url(../images/kva_s.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.kva_s_anim {
-  animation: kva_s_anim 2s steps(1) alternate infinite;
+.s_anim {
+  animation: s_anim 2s steps(1) infinite;
 }
-@keyframes kva_s_anim {
-  0% {top: 10vw; left: 10vw;}
-  10% {top: 50vw; left: 20vw;}
-  20% {top: 30vw; left: 50vw;}
-  30% {top: 15vw; left: 30vw;}
-  40% {top: 45vw; left: 5vw;}
-  50% {top: 10vw; left: 10vw;}
-  60% {top: 10vw; left: 40vw;}
-  70% {top: 35vw; left: 55vw;}
-  80% {top: 50vw; left: 25vw;}
-  90% {top: 5vw; left: 10vw;}
-  99% {top: 30vw; left: 40vw;}
+@keyframes s_anim {
+  0% {top: 12%; left: 24%;}
+  10% {top: 64%; left: 63%;}
+  20% {top: 35%; left: 13%;}
+  30% {top: 70%; left: 5%;}
+  40% {top: 25%; left: 32%;}
+  50% {top: 40%; left: 3%;}
+  60% {top: 32%; left: 53%;}
+  70% {top: 2%; left: 21%;}
+  80% {top: 48%; left: 31%;}
+  90% {top: 16%; left: 57%;}
 }
 .kva_xs {
   position: absolute;
   width: 13.8vw;
   height: 4.7vw;
-  top: 50vw;
-  left: 17vw;
   background: url(../images/kva_xs.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.kva_xs_anim {
-  animation: kva_xs_anim 2s steps(1) alternate infinite;
+.xs_anim {
+  animation: xs_anim 5s steps(1) infinite;
 }
-@keyframes kva_xs_anim {
-  0% {top: 10vw; left: 10vw;}
-  10% {top: 50vw; left: 20vw;}
-  20% {top: 30vw; left: 50vw;}
-  30% {top: 15vw; left: 30vw;}
-  40% {top: 45vw; left: 5vw;}
-  50% {top: 10vw; left: 10vw;}
-  60% {top: 10vw; left: 40vw;}
-  70% {top: 35vw; left: 55vw;}
-  80% {top: 50vw; left: 25vw;}
-  90% {top: 5vw; left: 10vw;}
-  99% {top: 30vw; left: 40vw;}
+@keyframes xs_anim {
+  0% {top: 54%; left: 1%;}
+  10% {top: 70%; left: 24%;}
+  20% {top: 12%; left: 3%;}
+  30% {top: 27%; left: 37%;}
+  40% {top: 43%; left: 52%;}
+  50% {top: 7%; left: 19%;}
+  60% {top: 34%; left: 30%;}
+  70% {top: 90%; left: 10%;}
+  80% {top: 12%; left: 26%;}
+  90% {top: 46%; left: 38%;}
 }
 nav {
   align-items: center;
@@ -141,7 +125,7 @@ nav {
   flex-flow: column;
   width: 100%;
   position: absolute;
-  top: 20.5vw;
+  top: 16.5vw;
 }
 a {
   text-decoration: none;

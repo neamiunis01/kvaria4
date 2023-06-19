@@ -1,35 +1,112 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="img/x-icon" href="images/favicon.svg">
-    <title>О театре</title>
-    <link rel="stylesheet" href="stylesheets/about.css">
-    <style media="screen">
-      body::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="img/x-icon" href="images/favicon.svg">
+  <title>О театре</title>
+  <link rel="stylesheet" href="stylesheets/about.css">
+    <link rel="stylesheet" href="stylesheets/font.css">
+  <style>
+
+    body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/about.png);
+    background-repeat: no-repeat;
+    opacity: .3;
+    }
+    .carousel__list {
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+      height: 100%;
+      list-style: none;
+    }
+    .carousel__item1, .carousel__item2, .carousel__item3 {
       width: 100%;
       height: 100%;
-      background: url(images/about.png);
-      background-repeat: no-repeat;
-      opacity: .3;
-      }
-    </style>
-  </head>
-  <body>
+      box-sizing: border-box;
+      flex-shrink: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main-wrapper">
+    <div class="carousel">
+      <ul class="carousel__list">
+        <li class="carousel__item1"><h1>О ТЕАТРЕ</h1></li>
+        <li class="carousel__item2"></li>
+        <li class="carousel__item3">ИСТОРИЯ СОЗДАНИЯ</li>
+      </ul>
+    </div>
+
+    <button class="next"><img src="images/button_right.svg" alt="Image"></button>
+    <button class="prev"><img src="images/button_left.svg" alt="Image"></button>
+
     <nav class="main_menu">
       <a href="about.html" class="about">о театре</a>
       <a href="afisha.html" class="afisha">афиша и билеты</a>
       <a href="actors.html" class="actors">актеры</a>
       <a href="shop.html" class="shop">магазин</a>
     </nav>
-    <!-- <div href="index.html" class="logo"></div> -->
-    <a href="index.html" class="main">
-      <img src="images/logo_white.svg" alt="">
-    </a>
-  </body>
+    <div href="index.html" class="logo"></div>
+
+  <script>
+    var list = document.querySelector('.carousel__list');
+    var slides = document.querySelectorAll('.carousel__item1, .carousel__item2, .carousel__item3,');
+
+    var indexOfFirst = 0;
+    var indexOfLast = slides.length - 1;
+
+    var firstSlide = slides[indexOfFirst];
+    var lastSlide = slides[indexOfLast];
+
+    var prevButton = document.querySelector('.prev');
+    var nextButton = document.querySelector('.next');
+
+    function scrollToPrev() {
+
+      list.insertBefore(lastSlide, firstSlide);
+        if (indexOfLast == 0) {
+          indexOfLast = slides.length - 1;
+        } else {
+          indexOfLast -= 1;
+        }
+      lastSlide = slides[indexOfLast];
+        if (indexOfFirst == 0) {
+          indexOfFirst = slides.length - 1;
+        } else {
+          indexOfFirst -= 1;
+        }
+      firstSlide = slides[indexOfFirst];
+    }
+
+
+    function scrollToNext() {
+      list.removeChild(firstSlide);
+      list.appendChild(firstSlide);
+      if (indexOfLast == slides.length - 1) {
+          indexOfLast = 0;
+        } else {
+          indexOfLast += 1;
+        }
+      lastSlide = slides[indexOfLast];
+        if (indexOfFirst == slides.length - 1) {
+          indexOfFirst = 0;
+        } else {
+          indexOfFirst += 1;
+        }
+      firstSlide = slides[indexOfFirst];
+    }
+
+    prevButton.addEventListener('click', scrollToPrev);
+    nextButton.addEventListener('click', scrollToNext);
+  </script>
+</body>
 </html>
