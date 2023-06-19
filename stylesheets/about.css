@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  width: 37vw;
+  position: absolute;
+  top: 2vw;
+  flex-direction: row;
+  justify-content: space-between;
+  left: 60vw;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Circe Rounded Regular;
+  font-style: normal;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+a:hover {
+  border-bottom: .2vw solid white;
+}
+.logo {
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  width: 3.9vw;
+  height: 1.8vw;
+  background: url(../images/logo_white.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

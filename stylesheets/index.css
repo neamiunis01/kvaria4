@@ -1,0 +1,231 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.kva_xl {
+  position: absolute;
+  width: 37.8vw;
+  height: 12.7vw;
+  top: 50vw;
+  left: 56vw;
+  background: url(../images/kva_xl.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kva_xl_anim {
+  animation: kva_xl_anim 2s steps(1) alternate infinite;
+}
+@keyframes kva_xl_anim {
+  0% {top: 10vw; left: 10vw;}
+  10% {top: 50vw; left: 20vw;}
+  20% {top: 30vw; left: 50vw;}
+  30% {top: 15vw; left: 30vw;}
+  40% {top: 45vw; left: 5vw;}
+  50% {top: 10vw; left: 10vw;}
+  60% {top: 10vw; left: 40vw;}
+  70% {top: 35vw; left: 55vw;}
+  80% {top: 50vw; left: 25vw;}
+  90% {top: 5vw; left: 10vw;}
+  99% {top: 30vw; left: 40vw;}
+}
+.kva_l {
+  position: absolute;
+  width: 33vw;
+  height: 11vw;
+  top: 50vw;
+  left: 22vw;
+  background: url(../images/kva_l.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kva_l_anim {
+  animation: kva_l_anim 2s steps(1) alternate infinite;
+}
+@keyframes kva_l_anim {
+  0% {top: 10vw; left: 10vw;}
+  10% {top: 50vw; left: 20vw;}
+  20% {top: 30vw; left: 50vw;}
+  30% {top: 15vw; left: 30vw;}
+  40% {top: 45vw; left: 5vw;}
+  50% {top: 10vw; left: 10vw;}
+  60% {top: 10vw; left: 40vw;}
+  70% {top: 35vw; left: 55vw;}
+  80% {top: 50vw; left: 25vw;}
+  90% {top: 5vw; left: 10vw;}
+  99% {top: 30vw; left: 40vw;}
+}
+.kva_m {
+  position: absolute;
+  width: 24vw;
+  height: 8vw;
+  top: 50vw;
+  left: 4vw;
+  background: url(../images/kva_m.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kva_m_anim {
+  animation: kva_m_anim 2s steps(1) alternate infinite;
+}
+@keyframes kva_m_anim {
+  0% {top: 10vw; left: 10vw;}
+  10% {top: 50vw; left: 20vw;}
+  20% {top: 30vw; left: 50vw;}
+  30% {top: 15vw; left: 30vw;}
+  40% {top: 45vw; left: 5vw;}
+  50% {top: 10vw; left: 10vw;}
+  60% {top: 10vw; left: 40vw;}
+  70% {top: 35vw; left: 55vw;}
+  80% {top: 50vw; left: 25vw;}
+  90% {top: 5vw; left: 10vw;}
+  99% {top: 30vw; left: 40vw;}
+}
+.kva_s {
+  position: absolute;
+  width: 21.3vw;
+  height: 7.3vw;
+  top: 50vw;
+  left: 24vw;
+  background: url(../images/kva_s.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kva_s_anim {
+  animation: kva_s_anim 2s steps(1) alternate infinite;
+}
+@keyframes kva_s_anim {
+  0% {top: 10vw; left: 10vw;}
+  10% {top: 50vw; left: 20vw;}
+  20% {top: 30vw; left: 50vw;}
+  30% {top: 15vw; left: 30vw;}
+  40% {top: 45vw; left: 5vw;}
+  50% {top: 10vw; left: 10vw;}
+  60% {top: 10vw; left: 40vw;}
+  70% {top: 35vw; left: 55vw;}
+  80% {top: 50vw; left: 25vw;}
+  90% {top: 5vw; left: 10vw;}
+  99% {top: 30vw; left: 40vw;}
+}
+.kva_xs {
+  position: absolute;
+  width: 13.8vw;
+  height: 4.7vw;
+  top: 50vw;
+  left: 17vw;
+  background: url(../images/kva_xs.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kva_xs_anim {
+  animation: kva_xs_anim 2s steps(1) alternate infinite;
+}
+@keyframes kva_xs_anim {
+  0% {top: 10vw; left: 10vw;}
+  10% {top: 50vw; left: 20vw;}
+  20% {top: 30vw; left: 50vw;}
+  30% {top: 15vw; left: 30vw;}
+  40% {top: 45vw; left: 5vw;}
+  50% {top: 10vw; left: 10vw;}
+  60% {top: 10vw; left: 40vw;}
+  70% {top: 35vw; left: 55vw;}
+  80% {top: 50vw; left: 25vw;}
+  90% {top: 5vw; left: 10vw;}
+  99% {top: 30vw; left: 40vw;}
+}
+nav {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  position: absolute;
+  top: 20.5vw;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  line-height: 6.5vw;
+  font-family: Circe Rounded Regular;
+  font-style: normal;
+  font-size: 3.5vw;
+  font-weight: 400;
+}
+a:hover {
+  border-bottom: .2vw solid black;
+}
+.logo {
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  width: 3.9vw;
+  height: 1.8vw;
+  background: url(../images/logo_black.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_menu {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  position: absolute;
+  top: 20.5vw;
+}
+.main1 {
+  position: absolute;
+  width: 14vw;
+  height: 10vw;
+  top: 16vw;
+  left: 22vw;
+  background: url(../images/main1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+}
+.main2 {
+  position: absolute;
+  width: 14vw;
+  height: 10vw;
+  top: 12.3vw;
+  left: 18vw;
+  background: url(../images/main2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+}
+.main3 {
+  position: absolute;
+  width: 14vw;
+  height: 10vw;
+  top: 19.3vw;
+  left: 66vw;
+  background: url(../images/main3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+}
+.about:hover ~ .main1 {
+  opacity: 1;
+}
+.main4 {
+
+}
+.main5 {
+
+}
+.main6 {
+
+}
+.main7 {
+
+}
+.main8 {
+
+}
+.main9 {
+
+}
+.main10 {
+
+}

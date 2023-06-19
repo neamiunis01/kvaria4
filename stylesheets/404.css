@@ -1,70 +1,121 @@
 body {
   background: #D0DAFF;
+  overflow: hidden;
 }
 .back:hover {
   border-bottom: .2vw solid white;
 }
 @media all and (min-width: 1024px) {
-  .k1 {
+  .error1 {
     position: absolute;
+    width: 48vw;
+    height: 46.5vw;
     top: 0vw;
     left: 2vw;
+    background: url(../images/error_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k2 {
+  .error2 {
     position: absolute;
-    top: 27vw;
-    left: 28vw;
+    width: 31.4vw;
+    height: 31.4vw;
+    top: 29vw;
+    left: 31vw;
+    background: url(../images/error_2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k3 {
+  .error3 {
     position: absolute;
-    top: 24vw;
+    width: 42vw;
+    height: 40.7vw;
+    top: 25vw;
     left: 51vw;
+    background: url(../images/error_3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k4 {
+  .error4 {
     position: absolute;
-    top: 5vw;
+    width: 36vw;
+    height: 38.5vw;
+    top: 4vw;
     left: 76vw;
+    background: url(../images/error_4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k5 {
+  .error5 {
     position: absolute;
-    top: 39.7vw;
-    left: 76.6vw;
+    width: 30vw;
+    height: 32.5vw;
+    top: 39vw;
+    left: 76vw;
+    background: url(../images/error_5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k6 {
+  .error6 {
     position: absolute;
+    width: 34vw;
+    height: 33.5vw;
     top: 32vw;
-    left: 0vw;
+    left: -7vw;
+    background: url(../images/error_6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k7 {
+  .error7 {
     position: absolute;
-    top: 9vw;
-    left: 39vw;
+    width: 34vw;
+    height: 34.5vw;
+    top: 10vw;
+    left: 38vw;
+    background: url(../images/error_7.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k8 {
+  .error8 {
     position: absolute;
-    top: 0vw;
+    width: 34.6vw;
+    height: 34.9vw;
+    top: -8vw;
     left: 54vw;
+    background: url(../images/error_8.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k9 {
+  .error9 {
     position: absolute;
-    top: 45vw;
-    left: 15vw;
+    width: 28.6vw;
+    height: 27.9vw;
+    top: 44vw;
+    left: 16vw;
+    background: url(../images/error_9.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k10 {
+  .error10 {
     position: absolute;
-    top: 0vw;
-    left: 0vw;
+    width: 27.6vw;
+    height: 27.2vw;
+    top: -2vw;
+    left: -2vw;
+    background: url(../images/error_10.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .error_oops {
     position: absolute;
     text-align: center;
     color: white;
     width: 100%;
-    margin: 21vw auto;
+    margin: 24vw auto;
   }
   .error {
     font-family: Circe Rounded Bold;
-    font-size: 128px;
+    font-size: 10vw;
     font-weight: 700;
     top: 21.5vw;
     left: 42.5vw;
@@ -72,91 +123,270 @@ body {
   .oops {
     font-family: Circe Rounded Regular;
     font-style: normal;
-    font-size: 51px;
+    font-size: 3.5vw;
     font-weight: 400;
   }
   .back {
     font-family: Circe Rounded Regular;
-    font-size: 36px;
+    font-size: 2.5vw;
     font-weight: 400;
     line-height: 15vw;
     color: white;
   }
 }
 @media all and (min-width: 600px) and (max-width: 1023px) {
-  .k1 {
+  .error1 {
     position: absolute;
+    width: 48vw;
+    height: 46.5vw;
     top: 0vw;
     left: 2vw;
+    background: url(../images/error_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k2 {
+  .error2 {
     position: absolute;
-    top: 27vw;
-    left: 28vw;
+    width: 31.4vw;
+    height: 31.4vw;
+    top: 29vw;
+    left: 31vw;
+    background: url(../images/error_2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k3 {
+  .error3 {
     position: absolute;
-    top: 24vw;
+    width: 42vw;
+    height: 40.7vw;
+    top: 25vw;
     left: 51vw;
+    background: url(../images/error_3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k4 {
+  .error4 {
     position: absolute;
-    top: 5vw;
+    width: 36vw;
+    height: 38.5vw;
+    top: 4vw;
     left: 76vw;
+    background: url(../images/error_4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k5 {
+  .error5 {
     position: absolute;
-    top: 39.7vw;
-    left: 76.6vw;
+    width: 30vw;
+    height: 32.5vw;
+    top: 39vw;
+    left: 76vw;
+    background: url(../images/error_5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k6 {
+  .error6 {
     position: absolute;
+    width: 34vw;
+    height: 33.5vw;
     top: 32vw;
-    left: 0vw;
+    left: -7vw;
+    background: url(../images/error_6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k7 {
+  .error7 {
     position: absolute;
-    top: 9vw;
-    left: 39vw;
+    width: 34vw;
+    height: 34.5vw;
+    top: 10vw;
+    left: 38vw;
+    background: url(../images/error_7.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k8 {
+  .error8 {
     position: absolute;
-    top: 0vw;
+    width: 34.6vw;
+    height: 34.9vw;
+    top: -8vw;
     left: 54vw;
+    background: url(../images/error_8.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k9 {
+  .error9 {
     position: absolute;
-    top: 45vw;
-    left: 15vw;
+    width: 28.6vw;
+    height: 27.9vw;
+    top: 44vw;
+    left: 16vw;
+    background: url(../images/error_9.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .k10 {
+  .error10 {
     position: absolute;
-    top: 0vw;
-    left: 0vw;
+    width: 27.6vw;
+    height: 27.2vw;
+    top: -2vw;
+    left: -2vw;
+    background: url(../images/error_10.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .error_oops {
     position: absolute;
     text-align: center;
+    font-style: normal;
     color: white;
     width: 100%;
-    margin: 21vw auto;
+    margin: 24vw auto;
   }
   .error {
     font-family: Circe Rounded Bold;
-    font-size: 128px;
+    font-size: 11vw;
     font-weight: 700;
     top: 21.5vw;
     left: 42.5vw;
   }
   .oops {
     font-family: Circe Rounded Regular;
-    font-style: normal;
-    font-size: 51px;
+    font-size: 4.5vw;
     font-weight: 400;
   }
   .back {
     font-family: Circe Rounded Regular;
-    font-size: 36px;
+    font-size: 3.5vw;
+    font-weight: 400;
+    line-height: 15vw;
+    color: white;
+  }
+}
+@media all and (min-width: 1px) and (max-width: 599px) {
+  .error1 {
+    position: absolute;
+    width: 48vw;
+    height: 46.5vw;
+    top: 0vw;
+    left: 2vw;
+    background: url(../images/error_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error2 {
+    position: absolute;
+    width: 31.4vw;
+    height: 31.4vw;
+    top: 29vw;
+    left: 31vw;
+    background: url(../images/error_2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error3 {
+    position: absolute;
+    width: 42vw;
+    height: 40.7vw;
+    top: 25vw;
+    left: 51vw;
+    background: url(../images/error_3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error4 {
+    position: absolute;
+    width: 36vw;
+    height: 38.5vw;
+    top: 4vw;
+    left: 76vw;
+    background: url(../images/error_4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error5 {
+    position: absolute;
+    width: 30vw;
+    height: 32.5vw;
+    top: 39vw;
+    left: 76vw;
+    background: url(../images/error_5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error6 {
+    position: absolute;
+    width: 34vw;
+    height: 33.5vw;
+    top: 32vw;
+    left: -7vw;
+    background: url(../images/error_6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error7 {
+    position: absolute;
+    width: 34vw;
+    height: 34.5vw;
+    top: 10vw;
+    left: 38vw;
+    background: url(../images/error_7.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error8 {
+    position: absolute;
+    width: 34.6vw;
+    height: 34.9vw;
+    top: -8vw;
+    left: 54vw;
+    background: url(../images/error_8.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error9 {
+    position: absolute;
+    width: 28.6vw;
+    height: 27.9vw;
+    top: 44vw;
+    left: 16vw;
+    background: url(../images/error_9.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error10 {
+    position: absolute;
+    width: 27.6vw;
+    height: 27.2vw;
+    top: -2vw;
+    left: -2vw;
+    background: url(../images/error_10.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .error_oops {
+    position: absolute;
+    text-align: center;
+    font-style: normal;
+    color: white;
+    width: 100%;
+    margin: 24vw auto;
+  }
+  .error {
+    font-family: Circe Rounded Bold;
+    font-size: 20vw;
+    font-weight: 700;
+    top: 21.5vw;
+    left: 42.5vw;
+  }
+  .oops {
+    font-family: Circe Rounded Regular;
+    font-size: 7vw;
+    font-weight: 400;
+  }
+  .back {
+    font-family: Circe Rounded Regular;
+    font-size: 5vw;
     font-weight: 400;
     line-height: 15vw;
     color: white;
