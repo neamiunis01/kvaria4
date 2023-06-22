@@ -1,0 +1,1731 @@
+body {
+  overflow-x: hidden;
+}
+.bg {
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+}
+@media all and (min-width: 1024px) {
+  .bg {
+    width: 100%;
+    height: 63vw;
+    background: url(../images/afisha_bg_desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Кармен */
+  .carmen_poster {
+    position: absolute;
+    left: 16.8vw;
+    top: 7.1vw;
+    width: 14.9vw;
+    height: 20.9vw;
+    background: url(../images/carmen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carmen_info {
+    position: absolute;
+    left: 16.8vw;
+    top: 7.1vw;
+    width: 14.9vw;
+    height: 20.9vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .carmen_text {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 8vw;
+    margin-left: 1.3vw;
+  }
+  .carmen_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 2vw;
+    height: 1.5vw;
+    margin-left: 1.3vw;
+  }
+  .carmen_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .carmen_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 6.4vw;
+    height: 2vw;
+    margin: 5.1vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .carmen_button:hover {
+    background-color: #AEDC64;
+  }
+  .carmen_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .carmen_info:hover {
+    opacity: 1;
+  }
+
+  /* Онегин */
+  .onegin_poster {
+    position: absolute;
+    left: 7.7vw;
+    top: 32.6vw;
+    width: 12.6vw;
+    height: 17.8vw;
+    background: url(../images/onegin.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .onegin_info {
+    position: absolute;
+    left: 7.7vw;
+    top: 32.6vw;
+    width: 12.6vw;
+    height: 17.8vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .onegin_text {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 8vw;
+    margin-left: 1.3vw;
+  }
+  .onegin_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 2vw;
+    height: 1.5vw;
+    margin-left: 1.3vw;
+  }
+  .onegin_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .onegin_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 6.4vw;
+    height: 2vw;
+    margin: 2.1vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .onegin_button:hover {
+    background-color: #AEDC64;
+  }
+  .onegin_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .onegin_info:hover {
+    opacity: 1;
+  }
+
+  /* Мастер-класс */
+  .workshop_poster {
+    position: absolute;
+    left: 62vw;
+    top: 39.5vw;
+    width: 13.9vw;
+    height: 19.5vw;
+    background: url(../images/workshop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .workshop_info {
+    position: absolute;
+    left: 62vw;
+    top: 39.5vw;
+    width: 13.9vw;
+    height: 19.5vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .workshop_text {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 6vw;
+    margin-left: 1.3vw;
+  }
+  .workshop_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 2vw;
+    height: 1.5vw;
+    margin-left: 1.3vw;
+  }
+  .workshop_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .workshop_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 6.4vw;
+    height: 2vw;
+    margin: 5.8vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .workshop_button:hover {
+    background-color: #AEDC64;
+  }
+  .workshop_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .workshop_info:hover {
+    opacity: 1;
+  }
+
+  /* Травиата */
+  .traviata_poster {
+    position: absolute;
+    left: 49.8vw;
+    top: 7.9vw;
+    width: 12.3vw;
+    height: 17.4vw;
+    background: url(../images/traviata.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .traviata_info {
+    position: absolute;
+    left: 49.8vw;
+    top: 7.9vw;
+    width: 12.3vw;
+    height: 17.4vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .traviata_text {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 8vw;
+    margin-left: 1.3vw;
+  }
+  .traviata_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 2vw;
+    height: 1.5vw;
+    margin-left: 1.3vw;
+  }
+  .traviata_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .traviata_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 6.4vw;
+    height: 2vw;
+    margin: 1.6vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .traviata_button:hover {
+    background-color: #AEDC64;
+  }
+  .traviata_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: .9vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .traviata_info:hover {
+    opacity: 1;
+  }
+
+  /* Свадьба Фигаро */
+  .figaro_poster {
+    position: absolute;
+    left: 35.2vw;
+    top: 28vw;
+    width: 20.3vw;
+    height: 28.8vw;
+    background: url(../images/figaro.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .figaro_info {
+    position: absolute;
+    left: 35.2vw;
+    top: 28vw;
+    width: 20.3vw;
+    height: 28.8vw;
+    background-color: #D3F7C0;
+    opacity: 0;
+  }
+  .figaro_text {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 11vw;
+    margin-left: 1.5vw;
+  }
+  .figaro_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 2.5vw;
+    height: 2vw;
+    margin-left: 1.5vw;
+  }
+  .figaro_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .figaro_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 8.8vw;
+    height: 2.5vw;
+    margin: 8.2vw 0vw 1.9vw 1.5vw;
+    cursor: pointer;
+  }
+  .figaro_button:hover {
+    background-color: #AEDC64;
+  }
+  .figaro_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .figaro_info:hover {
+    opacity: 1;
+  }
+
+  /* Дон Кихот */
+  .kihot_poster {
+    position: absolute;
+    left: 74vw;
+    top: 11.3vw;
+    width: 17vw;
+    height: 24vw;
+    background: url(../images/kihot.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .kihot_info {
+    position: absolute;
+    left: 74vw;
+    top: 11.3vw;
+    width: 17vw;
+    height: 24vw;
+    background-color: #D3F7C0;
+    opacity: 0;
+  }
+  .kihot_text {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 11vw;
+    margin-left: 1.5vw;
+  }
+  .kihot_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 2.5vw;
+    height: 2vw;
+    margin-left: 1.5vw;
+  }
+  .kihot_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .kihot_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 8.8vw;
+    height: 2.5vw;
+    margin: 3.5vw 0vw 1.9vw 1.5vw;
+    cursor: pointer;
+  }
+  .kihot_button:hover {
+    background-color: #AEDC64;
+  }
+  .kihot_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .kihot_info:hover {
+    opacity: 1;
+  }
+
+  .bold {
+    font-family: Circe Rounded Bold;
+  }
+
+  .esc {
+    margin: 3vw 3vw 0vw 42vw;
+    cursor: pointer;
+  }
+
+  /* Выбор места */
+  .ch_seat_form {
+    position: absolute;
+    width: 46vw;
+    height: 37.5vw;
+    left: 26.7vw;
+    top: 9.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+  }
+  .seats {
+    position: absolute;
+    width: 54%;
+    height: 54%;
+    margin: 3.8vw 11.5vw 2vw 11.5vw;
+  }
+  h2 {
+    position: absolute;
+    font-family: Circe Rounded Regular;
+    font-size: 2.3vw;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .done_button_1 {
+    position: absolute;
+    margin: 25vw 20vw 1.5vw 20vw;
+    width: 6vw;
+    height: 6vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  /* Личные данные */
+  .name_form {
+    position: absolute;
+    width: 46vw;
+    height: 32vw;
+    left: 26.7vw;
+    top: 9.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+  }
+  .done_button_2 {
+    position: absolute;
+    margin: 2.8vw 20vw 1.5vw 20vw;
+    width: 6vw;
+    height: 6vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .form-input {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .telephone {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .mailme {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  #name_block > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+  }
+
+  /* Спасибо за покупку */
+  .thankyou_form {
+    position: absolute;
+    width: 46vw;
+    height: 25.5vw;
+    left: 26.7vw;
+    top: 9.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+  }
+  .thankyou_form > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+  }
+  .thankyou_form > h2 {
+    text-align: left;
+    margin-left: 2.5vw;
+  }
+  .thankyou_form > a {
+    position: absolute;
+    margin: 13.1vw 20vw 1.5vw 20vw;
+    width: 6vw;
+    height: 6vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  /* Меню */
+  .main_menu {
+    display: flex;
+    position: absolute;
+    top: 2vw;
+    width: 37vw;
+    left: 60vw;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main_menu > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Circe Rounded Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+  }
+  .main_menu > a:hover {
+    border-bottom: .2vw solid white;
+  }
+  .logo {
+    width: 5vw;
+    height: 2.2vw;
+  }
+  .menu_mobile {
+    display: none;
+  }
+  .afisha {
+    border-bottom: .2vw solid white;
+  }
+}
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  .bg {
+    width: 100%;
+    height: 143vw;
+    background: url(../images/afisha_bg_tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Кармен */
+  .carmen_poster {
+    position: absolute;
+    left: 21.8vw;
+    top: 11.1vw;
+    width: 21vw;
+    height: 29.4vw;
+    background: url(../images/carmen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carmen_info {
+    position: absolute;
+    left: 21.8vw;
+    top: 11.1vw;
+    width: 21vw;
+    height: 29.4vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .carmen_text {
+    font-family: Circe Rounded Regular;
+    font-size: 1.7vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 15vw;
+    margin-left: 1.3vw;
+  }
+  .carmen_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 3.2vw;
+    height: 2.5vw;
+    margin-left: 1.3vw;
+  }
+  .carmen_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .carmen_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 11.4vw;
+    height: 3vw;
+    margin: 2.1vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .carmen_button:hover {
+    background-color: #AEDC64;
+  }
+  .carmen_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .carmen_info:hover {
+    opacity: 1;
+  }
+  /* Онегин */
+  .onegin_poster {
+    position: absolute;
+    left: 11vw;
+    top: 52.6vw;
+    width: 17.6vw;
+    height: 25vw;
+    background: url(../images/onegin.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .onegin_info {
+    position: absolute;
+    left: 11vw;
+    top: 52.6vw;
+    width: 17.6vw;
+    height: 25vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .onegin_text {
+    font-family: Circe Rounded Regular;
+    font-size: 1.5vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 13vw;
+    margin-left: 1.3vw;
+  }
+  .onegin_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 2.5vw;
+    height: 2vw;
+    margin-left: 1.3vw;
+  }
+  .onegin_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .onegin_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 10.4vw;
+    height: 2.5vw;
+    margin: 2.1vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .onegin_button:hover {
+    background-color: #AEDC64;
+  }
+  .onegin_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .onegin_info:hover {
+    opacity: 1;
+  }
+
+  /* Мастер-класс */
+  .workshop_poster {
+    position: absolute;
+    left: 10vw;
+    top: 91.8vw;
+    width: 20vw;
+    height: 27.9vw;
+    background: url(../images/workshop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .workshop_info {
+    position: absolute;
+    left: 10vw;
+    top: 91.8vw;
+    width: 20vw;
+    height: 27.9vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .workshop_text {
+    font-family: Circe Rounded Regular;
+    font-size: 1.7vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 10vw;
+    margin-left: 1.3vw;
+  }
+  .workshop_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 3vw;
+    height: 2.3vw;
+    margin-left: 1.3vw;
+  }
+  .workshop_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .workshop_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 11.2vw;
+    height: 3vw;
+    margin: 6.9vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .workshop_button:hover {
+    background-color: #AEDC64;
+  }
+  .workshop_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .workshop_info:hover {
+    opacity: 1;
+  }
+
+  /* Травиата */
+  .traviata_poster {
+    position: absolute;
+    left: 60.8vw;
+    top: 12.9vw;
+    width: 16.7vw;
+    height: 23.9vw;
+    background: url(../images/traviata.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .traviata_info {
+    position: absolute;
+    left: 60.8vw;
+    top: 12.9vw;
+    width: 16.7vw;
+    height: 23.9vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .traviata_text {
+    font-family: Circe Rounded Regular;
+    font-size: 1.4vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 12vw;
+    margin-left: 1.3vw;
+  }
+  .traviata_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 2.8vw;
+    height: 2vw;
+    margin-left: 1.3vw;
+  }
+  .traviata_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .traviata_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 9.4vw;
+    height: 2.5vw;
+    margin: 2.3vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .traviata_button:hover {
+    background-color: #AEDC64;
+  }
+  .traviata_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .traviata_info:hover {
+    opacity: 1;
+  }
+
+  /* Свадьба Фигаро */
+  .figaro_poster {
+    position: absolute;
+    left: 56.2vw;
+    top: 49vw;
+    width: 28.3vw;
+    height: 39.8vw;
+    background: url(../images/figaro.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .figaro_info {
+    position: absolute;
+    left: 56.2vw;
+    top: 49vw;
+    width: 28.3vw;
+    height: 39.8vw;
+    background-color: #D3F7C0;
+    opacity: 0;
+  }
+  .figaro_text {
+    font-family: Circe Rounded Regular;
+    font-size: 2.2vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 24vw;
+    margin-left: 1.5vw;
+  }
+  .figaro_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 4vw;
+    height: 3vw;
+    margin-left: 1.5vw;
+  }
+  .figaro_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 2.2vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .figaro_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 14.1vw;
+    height: 3.5vw;
+    margin: 2.4vw 0vw 1.9vw 1.5vw;
+    cursor: pointer;
+  }
+  .figaro_button:hover {
+    background-color: #AEDC64;
+  }
+  .figaro_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 2.2vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .figaro_info:hover {
+    opacity: 1;
+  }
+
+  /* Дон Кихот */
+  .kihot_poster {
+    position: absolute;
+    left: 46vw;
+    top: 93.3vw;
+    width: 23.7vw;
+    height: 32.9vw;
+    background: url(../images/kihot.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .kihot_info {
+    position: absolute;
+    left: 46vw;
+    top: 93.3vw;
+    width: 23.7vw;
+    height: 32.9vw;
+    background-color: #D3F7C0;
+    opacity: 0;
+  }
+  .kihot_text {
+    font-family: Circe Rounded Regular;
+    font-size: 1.7vw;
+    font-weight: 400;
+    width: 15vw;
+    height: 16vw;
+    margin-left: 1.5vw;
+  }
+  .kihot_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 3.3vw;
+    height: 2.6vw;
+    margin-left: 1.5vw;
+  }
+  .kihot_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .kihot_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 11.2vw;
+    height: 3vw;
+    margin: 5.5vw 0vw 1.9vw 1.5vw;
+    cursor: pointer;
+  }
+  .kihot_button:hover {
+    background-color: #AEDC64;
+  }
+  .kihot_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .kihot_info:hover {
+    opacity: 1;
+  }
+
+  .bold {
+    font-family: Circe Rounded Bold;
+  }
+
+  .choose_bg {
+    position: absolute;
+    width: 100%;
+  }
+  .esc {
+    margin: 3vw 3vw 0vw 42vw;
+    cursor: pointer;
+  }
+
+  /* Выбор места */
+  .ch_seat_form {
+    position: absolute;
+    width: 46vw;
+    height: 37.5vw;
+    left: 26.7vw;
+    top: 9.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+  }
+  .seats {
+    position: absolute;
+    width: 54%;
+    height: 54%;
+    margin: 3.8vw 11.5vw 2vw 11.5vw;
+  }
+  h2 {
+    position: absolute;
+    font-family: Circe Rounded Regular;
+    font-size: 2.3vw;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .done_button_1 {
+    position: absolute;
+    margin: 25vw 20vw 1.5vw 20vw;
+    width: 6vw;
+    height: 6vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  /* Личные данные */
+  .name_form {
+    position: absolute;
+    width: 46vw;
+    height: 32vw;
+    left: 26.7vw;
+    top: 9.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+  }
+  .done_button_2 {
+    position: absolute;
+    margin: 2.8vw 20vw 1.5vw 20vw;
+    width: 6vw;
+    height: 6vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .form-input {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .telephone {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .mailme {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  #name_block > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+  }
+
+  /* Спасибо за покупку */
+  .thankyou_form {
+    position: absolute;
+    width: 46vw;
+    height: 25.5vw;
+    left: 26.7vw;
+    top: 9.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+  }
+  .thankyou_form > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+  }
+  .thankyou_form > h2 {
+    text-align: left;
+    margin-left: 2.5vw;
+  }
+  .thankyou_form > a {
+    position: absolute;
+    margin: 13.1vw 20vw 1.5vw 20vw;
+    width: 6vw;
+    height: 6vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  /* Меню */
+  .main_menu {
+    display: flex;
+    position: absolute;
+    top: 2vw;
+    width: 54vw;
+    left: 43vw;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main_menu > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Circe Rounded Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+  }
+  .main_menu > a:hover {
+    border-bottom: .2vw solid white;
+  }
+  .logo {
+    width: 8.9vw;
+    height: 3.8vw;
+  }
+  .menu_mobile {
+    display: none;
+  }
+  .afisha {
+    border-bottom: .2vw solid white;
+  }
+}
+@media all and (min-width: 1px) and (max-width: 599px) {
+  .bg {
+    width: 100%;
+    height: 520vw;
+    background: url(../images/afisha_bg_mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Кармен */
+  .carmen_poster {
+    position: absolute;
+    left: 43.8vw;
+    top: 23.1vw;
+    width: 41vw;
+    height: 59.4vw;
+    background: url(../images/carmen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carmen_info {
+    position: absolute;
+    left: 43.8vw;
+    top: 23.1vw;
+    width: 41vw;
+    height: 59.4vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .carmen_text {
+    font-family: Circe Rounded Regular;
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 30vw;
+    height: 32vw;
+    margin-left: 1.3vw;
+  }
+  .carmen_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 6.2vw;
+    height: 5vw;
+    margin-left: 1.3vw;
+  }
+  .carmen_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 3.8vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .carmen_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 24.4vw;
+    height: 5.5vw;
+    margin: 6.1vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .carmen_button:hover {
+    background-color: #AEDC64;
+  }
+  .carmen_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 3.8vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .carmen_info:hover {
+    opacity: 1;
+  }
+  /* Онегин */
+  .onegin_poster {
+    position: absolute;
+    left: 24vw;
+    top: 95.6vw;
+    width: 35vw;
+    height: 49vw;
+    background: url(../images/onegin.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .onegin_info {
+    position: absolute;
+    left: 24vw;
+    top: 95.6vw;
+    width: 35vw;
+    height: 49vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .onegin_text {
+    font-family: Circe Rounded Regular;
+    font-size: 2.8vw;
+    font-weight: 400;
+    width: 23vw;
+    height: 25vw;
+    margin-left: 1.3vw;
+  }
+  .onegin_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 4.2vw;
+    height: 3.6vw;
+    margin-left: 1.3vw;
+  }
+  .onegin_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 2.8vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .onegin_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 18.4vw;
+    height: 4.5vw;
+    margin: 8.1vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .onegin_button:hover {
+    background-color: #AEDC64;
+  }
+  .onegin_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 2.8vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .onegin_info:hover {
+    opacity: 1;
+  }
+
+  /* Мастер-класс */
+  .workshop_poster {
+    position: absolute;
+    left: 44vw;
+    top: 160.8vw;
+    width: 38vw;
+    height: 53.9vw;
+    background: url(../images/workshop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .workshop_info {
+    position: absolute;
+    left: 44vw;
+    top: 160.8vw;
+    width: 38vw;
+    height: 53.9vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .workshop_text {
+    font-family: Circe Rounded Regular;
+    font-size: 3.5vw;
+    font-weight: 400;
+    width: 27vw;
+    height: 23vw;
+    margin-left: 1.3vw;
+  }
+  .workshop_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 6vw;
+    height: 4.3vw;
+    margin-left: 1.3vw;
+  }
+  .workshop_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 3.5vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .workshop_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 22.2vw;
+    height: 5vw;
+    margin: 10.9vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .workshop_button:hover {
+    background-color: #AEDC64;
+  }
+  .workshop_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 3.5vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .workshop_info:hover {
+    opacity: 1;
+  }
+
+  /* Травиата */
+  .traviata_poster {
+    position: absolute;
+    left: 31.7vw;
+    top: 225.9vw;
+    width: 34.7vw;
+    height: 48.9vw;
+    background: url(../images/traviata.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .traviata_info {
+    position: absolute;
+    left: 31.7vw;
+    top: 225.9vw;
+    width: 34.7vw;
+    height: 48.9vw;
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+  .traviata_text {
+    font-family: Circe Rounded Regular;
+    font-size: 2.8vw;
+    font-weight: 400;
+    width: 41vw;
+    height: 26vw;
+    margin-left: 1.3vw;
+  }
+  .traviata_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 4.8vw;
+    height: 4vw;
+    margin-left: 1.3vw;
+  }
+  .traviata_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 2.8vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .traviata_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 18.4vw;
+    height: 4.5vw;
+    margin: 5.3vw 0vw 1.9vw 1.3vw;
+    cursor: pointer;
+  }
+  .traviata_button:hover {
+    background-color: #AEDC64;
+  }
+  .traviata_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 2.8vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .traviata_info:hover {
+    opacity: 1;
+  }
+
+  /* Свадьба Фигаро */
+  .figaro_poster {
+    position: absolute;
+    left: 32.2vw;
+    top: 293vw;
+    width: 57.3vw;
+    height: 80.8vw;
+    background: url(../images/figaro.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .figaro_info {
+    position: absolute;
+    left: 32.2vw;
+    top: 293vw;
+    width: 57.3vw;
+    height: 80.8vw;
+    background-color: #D3F7C0;
+    opacity: 0;
+  }
+  .figaro_text {
+    font-family: Circe Rounded Regular;
+    font-size: 5vw;
+    font-weight: 400;
+    width: 66vw;
+    height: 46vw;
+    margin-left: 1.5vw;
+  }
+  .figaro_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 8vw;
+    height: 6vw;
+    margin-left: 1.5vw;
+  }
+  .figaro_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 5vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .figaro_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 31.1vw;
+    height: 6.5vw;
+    margin: 8.4vw 0vw 1.9vw 1.5vw;
+    cursor: pointer;
+  }
+  .figaro_button:hover {
+    background-color: #AEDC64;
+  }
+  .figaro_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 5vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .figaro_info:hover {
+    opacity: 1;
+  }
+
+  /* Дон Кихот */
+  .kihot_poster {
+    position: absolute;
+    left: 28vw;
+    top: 406.3vw;
+    width: 46.7vw;
+    height: 65.9vw;
+    background: url(../images/kihot.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .kihot_info {
+    position: absolute;
+    left: 28vw;
+    top: 406.3vw;
+    width: 46.7vw;
+    height: 65.9vw;
+    background-color: #D3F7C0;
+    opacity: 0;
+  }
+  .kihot_text {
+    font-family: Circe Rounded Regular;
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 31vw;
+    height: 35vw;
+    margin-left: 1.5vw;
+  }
+  .kihot_age {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 6.3vw;
+    height: 4.6vw;
+    margin-left: 1.5vw;
+  }
+  .kihot_age > p {
+    font-family: Circe Rounded Regular;
+    font-size: 3.8vw;
+    font-weight: 400;
+    margin: 0.3vw;
+  }
+  .kihot_button {
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    width: 24.2vw;
+    height: 6vw;
+    margin: 8.5vw 0vw 1.9vw 1.5vw;
+    cursor: pointer;
+  }
+  .kihot_button:hover {
+    background-color: #AEDC64;
+  }
+  .kihot_button > p {
+    font-family: Circe Rounded Regular;
+    font-size: 3.8vw;
+    font-weight: 400;
+    margin: 0.5vw;
+  }
+  .kihot_info:hover {
+    opacity: 1;
+  }
+
+  .bold {
+    font-family: Circe Rounded Bold;
+  }
+
+  .choose_bg {
+    position: absolute;
+    width: 100%;
+  }
+  .esc_side {
+    cursor: pointer;
+    width: 10vw;
+    height: 9vw;
+    position: absolute;
+    top: 4vw;
+    right: 3vw;
+  }
+
+  /* Выбор места */
+  .ch_seat_form {
+    position: absolute;
+    width: 67vw;
+    height: 90.5vw;
+    left: 15.7vw;
+    top: 59.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+  }
+  .seats {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    margin: 3.8vw 10vw 2vw 10vw;
+  }
+  h2 {
+    position: absolute;
+    font-family: Circe Rounded Regular;
+    font-size: 4.3vw;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .done_button_1 {
+    position: absolute;
+    margin: 67vw 28vw 1.5vw 28vw;
+    width: 10vw;
+    height: 10vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  /* Личные данные */
+  .name_form {
+    position: absolute;
+    width: 67vw;
+    height: 90.5vw;
+    left: 15.7vw;
+    top: 59.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+  }
+  .done_button_2 {
+    position: absolute;
+    margin: 33vw 28vw 1.5vw 28vw;
+    width: 10vw;
+    height: 10vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .form-input {
+    font-family: Circe Rounded Regular;
+    font-size: 5.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 59vw;
+    height: 7.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .telephone {
+    font-family: Circe Rounded Regular;
+    font-size: 5.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 59vw;
+    height: 7.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .mailme {
+    font-family: Circe Rounded Regular;
+    font-size: 5.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 59vw;
+    height: 7.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  #name_block > p {
+    font-family: Circe Rounded Regular;
+    font-size: 3.5vw;
+    font-weight: 400;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 59vw;
+    height: 1.5vw;
+  }
+
+  /* Спасибо за покупку */
+  .thankyou_form {
+    position: absolute;
+    width: 67vw;
+    height: 50.5vw;
+    left: 15.7vw;
+    top: 59.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+  }
+  .thankyou_form > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+  }
+  .thankyou_form > h2 {
+    text-align: left;
+    margin-left: 2.5vw;
+  }
+  .thankyou_form > a {
+    position: absolute;
+    margin: 30.1vw 29vw 1.5vw 29vw;
+    width: 10vw;
+    height: 10vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  /* Меню */
+  .main_menu {
+    display: none;
+  }
+  .logo {
+    width: 13.9vw;
+    height: 5.8vw;
+  }
+  .menu_mobile {
+    position: absolute;
+    top: 4vw;
+    left: 87vw;
+    width: 10vw;
+    height: 7vw;
+    background: url(../images/menu_mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .side_menu {
+    position: absolute;
+    top: 0vw;
+    right: 0vw;
+    width: 70%;
+    height: 520vw;
+    background-color: white;
+  }
+  .side_menu_text {
+    display: flex;
+    position: absolute;
+    top: 27vw;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .side_menu_text > a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Circe Rounded Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.5vw;
+    text-align: right;
+    margin: 0vw 4vw;
+    line-height: 16vw;
+  }
+  .side_menu_text > a:hover {
+    border-bottom: .9vw solid black;
+  }
+  .esc {
+    margin: 4vw 4vw 0vw 36vw;
+    cursor: pointer;
+    width: 10vw;
+    height: 7vw;
+  }
+
+  /* Кнопки */
+  .carmen_age, .carmen_button, .onegin_age, .onegin_button, .workshop_age, .workshop_button, .traviata_age, .traviata_button, .figaro_age, .figaro_button, .kihot_age, .kihot_button {
+    border: 0.4vw solid black;
+    border-radius: 0.8vw;
+  }
+}
+.done_button_1:hover, .done_button_2:hover, .thankyou_form > a:hover {
+  background:url(../images/done_green.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.none {
+  display: none;
+}
+.afisha {
+  border-bottom: .2vw solid white;
+}
+.logo {
+  position: absolute;
+  margin: 1.5vw;
+  background: url(../images/logo_white.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

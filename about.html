@@ -6,9 +6,8 @@
   <link rel="icon" type="img/x-icon" href="images/favicon.svg">
   <title>О театре</title>
   <link rel="stylesheet" href="stylesheets/about.css">
-    <link rel="stylesheet" href="stylesheets/font.css">
+  <link rel="stylesheet" href="stylesheets/font.css">
   <style>
-
     body::before {
     content: '';
     position: absolute;
@@ -35,6 +34,8 @@
     }
 
   </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="javascripts/animation.js"></script>
 </head>
 <body>
   <div class="main-wrapper">
@@ -49,6 +50,11 @@
     <button class="next"><img src="images/button_right.svg" alt="Image"></button>
     <button class="prev"><img src="images/button_left.svg" alt="Image"></button>
 
+    <div class="about_text none">
+      <img class="esc" src="images/esc.svg" alt="">
+      <p>Квария – это необычный оперный театр, в котором выступают лягушки. Если вам хочется испытать новые эмоции, вы по адресу! Здесь вы услышите как и известные на весь мир, так и современные оперы в исполнении голосистых земноводных. Квакающие Фигаро и Сюзанна, прыгающий по сцене Евгений Онегин или свободолюбивая Кармен-лягушка – все это возможно в Кварии.</p>
+    </div>
+
     <nav class="main_menu">
       <a href="about.html" class="about">о театре</a>
       <a href="afisha.html" class="afisha">афиша и билеты</a>
@@ -59,7 +65,7 @@
 
   <script>
     var list = document.querySelector('.carousel__list');
-    var slides = document.querySelectorAll('.carousel__item1, .carousel__item2, .carousel__item3,');
+    var slides = document.querySelectorAll('.carousel__item1, .carousel__item2, .carousel__item3');
 
     var indexOfFirst = 0;
     var indexOfLast = slides.length - 1;
@@ -104,6 +110,8 @@
         }
       firstSlide = slides[indexOfFirst];
     }
+
+
 
     prevButton.addEventListener('click', scrollToPrev);
     nextButton.addEventListener('click', scrollToNext);

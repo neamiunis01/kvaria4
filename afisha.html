@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="img/x-icon" href="images/favicon.svg">
+    <title>Афиша и билеты</title>
+    <link rel="stylesheet" href="stylesheets/afisha.css">
+    <link rel="stylesheet" href="stylesheets/font.css">
+    <style media="screen">
+      /* body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(images/afisha.svg);
+      background-repeat: no-repeat;
+      opacity: .3;
+      } */
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="javascripts/animation.js"></script>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="carmen">
+      <div class="carmen_poster"></div>
+      <div class="carmen_info">
+        <p class="carmen_text"><span class="bold">Композитор:</span> <br> Жорж Бизе <br> <span class="bold">Дирижер:</span> <br> Френк Николсон <br> <br> <span class="bold">Продолжительность:</span> <br> 3 часа 20 минут</p>
+        <div class="carmen_age">
+          <p>12+</p>
+        </div>
+        <div class="carmen_button">
+          <p>хочу сходить!</p>
+        </div>
+      </div>
+    </div>
+    <div class="onegin">
+      <div class="onegin_poster"></div>
+      <div class="onegin_info">
+        <p class="onegin_text"><span class="bold">Композитор:</span> <br> П.И.Чайковский <br> <span class="bold">Дирижер:</span> <br> Френк Николсон <br> <br> <span class="bold">Продолжительность:</span> <br> 3 часа 50 минут</p>
+        <div class="onegin_age">
+          <p>6+</p>
+        </div>
+        <div class="onegin_button">
+          <p>хочу сходить!</p>
+        </div>
+      </div>
+    </div>
+    <div class="workshop">
+      <div class="workshop_poster"></div>
+      <div class="workshop_info">
+        <p class="workshop_text"><span class="bold">Спикер:</span> <br> Зигги Крейг <br> <br> <span class="bold">Продолжительность:</span> <br> 1 час 30 минут</p>
+        <div class="workshop_age">
+          <p>16+</p>
+        </div>
+        <div class="workshop_button">
+          <p>хочу сходить!</p>
+        </div>
+      </div>
+    </div>
+    <div class="traviata">
+      <div class="traviata_poster"></div>
+      <div class="traviata_info">
+        <p class="traviata_text"><span class="bold">Композитор:</span> <br> Д.Верди <br> <span class="bold">Дирижер:</span> <br> Александр Никоноров <br> <br> <span class="bold">Продолжительность:</span> <br> 2 часа 40 минут</p>
+        <div class="traviata_age">
+          <p>12+</p>
+        </div>
+        <div class="traviata_button">
+          <p>хочу сходить!</p>
+        </div>
+      </div>
+    </div>
+    <div class="figaro">
+      <div class="figaro_poster"></div>
+      <div class="figaro_info">
+        <p class="figaro_text"><span class="bold">Композитор:</span> <br> В.А.Моцарт <br> <span class="bold">Дирижер:</span> <br> Александр Никоноров <br> <br> <span class="bold">Продолжительность:</span> <br> 3 часа 30 минут</p>
+        <div class="figaro_age">
+          <p>12+</p>
+        </div>
+        <div class="figaro_button">
+          <p>хочу сходить!</p>
+        </div>
+      </div>
+    </div>
+    <div class="kihot">
+      <div class="kihot_poster"></div>
+      <div class="kihot_info">
+        <p class="kihot_text"><span class="bold">Композитор:</span> <br> Жюль Массне <br> <span class="bold">Дирижер:</span> <br> Френк Николсон <br> <br> <span class="bold">Продолжительность:</span> <br> 2 часа 30 минут</p>
+        <div class="kihot_age">
+          <p>12+</p>
+        </div>
+        <div class="kihot_button">
+          <p>хочу сходить!</p>
+        </div>
+      </div>
+    </div>
+    <div class="ticket_forms none">
+      <div class="ch_seat_form">
+        <img class="esc" src="images/esc.svg" alt="">
+        <img class="seats" src="images/seats.svg" alt="">
+        <h2><span class="bold">Выбор места</span></h2>
+        <div class="done_button_1"></div>
+      </div>
+      <div class="name_form none">
+        <img class="esc" src="images/esc.svg" alt="">
+        <div id="name_block">
+          <input class="form-input" placeholder="Имя и Фамилия">
+          <input type="tel" class="telephone" placeholder="Номер телефона">
+          <input type="email" class="mailme" placeholder="E-mail">
+          <p>На указанный e-mail вам придет билет, а на номер телефона <br> мы отправим СМС, в случае отмены или переноса спектакля</p>
+        </div>
+        <div class="done_button_2"></div>
+      </div>
+      <div class="thankyou_form none">
+        <img class="esc" src="images/esc.svg" alt="">
+        <h2><span class="bold">Спасибо за покупку!</span> <br> <br>С нетерпением ждем вас на спектакле, <br> до скорой встречи!</h2>
+        <a href="index.html"></a>
+      </div>
+    </div>
+    <nav class="main_menu">
+      <a href="about.html" class="about">о театре</a>
+      <a href="afisha.html" class="afisha">афиша и билеты</a>
+      <a href="actors.html" class="actors">актеры</a>
+      <a href="shop.html" class="shop">магазин</a>
+    </nav>
+    <div class="menu_mobile"></div>
+    <div class="side_menu none">
+      <img class="esc_side" src="images/esc.svg" alt="">
+      <nav class="side_menu_text">
+        <a href="about.html" class="about">о театре</a>
+        <a href="afisha.html" class="afisha">афиша и билеты</a>
+        <a href="actors.html" class="actors">актеры</a>
+        <a href="shop.html" class="shop">магазин</a>
+      </nav>
+    </div>
+    <a href="index.html" class="logo"></a>
+  </body>
+</html>

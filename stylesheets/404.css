@@ -1,6 +1,12 @@
 body {
   background: #D0DAFF;
-  overflow: hidden;
+}
+.errors {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
 }
 .back:hover {
   border-bottom: .2vw solid white;

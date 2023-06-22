@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 h1 {
   font-family: Circe Rounded Regular;
   font-style: normal;
@@ -8,6 +11,7 @@ h1 {
   top: 51.7vw;
   left: 2vw;
   line-height: 1vw;
+  cursor: pointer;
 }
 h1:hover {
   color: #D0DAFF;
@@ -70,6 +74,28 @@ h1:hover {
 .prev img {
   height: 6.6vw;
   width: 5vw;
+}
+.esc {
+  margin: 3vw 3vw 0vw 37vw
+}
+.none {
+  display: none;
+}
+.about_text {
+  width: 41.4vw;
+  height: 29.4vw;
+  position: absolute;
+  bottom: 0vw;
+  left: 0vw;
+  background-color: #D0DAFF;
+}
+.about_text > p {
+  font-family: Circe Rounded Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vw;
+  position: absolute;
+  margin: 2vw;
 }
 nav {
   display: flex;

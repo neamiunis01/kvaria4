@@ -1,9 +1,77 @@
-html, body {
-  margin: 0;
-  padding: 0;
+body {
+  overflow: hidden;
 }
-canvas {
-  display: block;
+@media all and (min-width: 1024px) {
+  a {
+    font-size: 3.5vw;
+  }
+  a:hover {
+    border-bottom: .2vw solid black;
+  }
+  .logo {
+    width: 5vw;
+    height: 2.2vw;
+  }
+  .about_images {
+    top: 0vw;
+  }
+  .afisha_images {
+    top: 0vw;
+  }
+  .actors_images {
+    top: 0vw;
+  }
+  .shop_images {
+    top: 0vw;
+  }
+}
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  a {
+    font-size: 5.5vw;
+  }
+  a:hover {
+    border-bottom: .2vw solid black;
+  }
+  .logo {
+    width: 8.9vw;
+    height: 3.8vw;
+  }
+  .about_images {
+    top: 15vw;
+  }
+  .afisha_images {
+    top: 7vw;
+  }
+  .actors_images {
+    top: 26vw;
+  }
+  .shop_images {
+    top: 35vw;
+  }
+}
+@media all and (min-width: 1px) and (max-width: 599px) {
+  a {
+    font-size: 9.5vw;
+  }
+  a:hover {
+    border-bottom: .8vw solid black;
+  }
+  .logo {
+    width: 16.9vw;
+    height: 7.1vw;
+  }
+  .about_images {
+    top: 20vw;
+  }
+  .afisha_images {
+    top: 17vw;
+  }
+  .actors_images {
+    top: 26vw;
+  }
+  .shop_images {
+    top: 60vw;
+  }
 }
 .kva_xl {
   position: absolute;
@@ -120,96 +188,162 @@ canvas {
   90% {top: 46%; left: 38%;}
 }
 nav {
+  height: 100vh;
   align-items: center;
+  position: absolute;
   display: flex;
   flex-flow: column;
   width: 100%;
-  position: absolute;
-  top: 16.5vw;
+  justify-content: center;
 }
 a {
   text-decoration: none;
   color: #000000;
-  line-height: 6.5vw;
   font-family: Circe Rounded Regular;
   font-style: normal;
-  font-size: 3.5vw;
   font-weight: 400;
-}
-a:hover {
-  border-bottom: .2vw solid black;
+  margin-bottom: 4vw;
 }
 .logo {
   position: absolute;
-  top: 2vw;
-  left: 2vw;
-  width: 3.9vw;
-  height: 1.8vw;
+  margin: 1.5vw;
   background: url(../images/logo_black.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.main_menu {
-  display: flex;
-  flex-flow: column;
-  width: 100%;
-  position: absolute;
-  top: 20.5vw;
-}
 .main1 {
   position: absolute;
-  width: 14vw;
-  height: 10vw;
-  top: 16vw;
-  left: 22vw;
+  width: 18vw;
+  height: 12vw;
+  top: 14vw;
+  left: 12vw;
   background: url(../images/main1.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0;
 }
 .main2 {
   position: absolute;
-  width: 14vw;
-  height: 10vw;
-  top: 12.3vw;
-  left: 18vw;
+  width: 18vw;
+  height: 12vw;
+  top: 4.3vw;
+  left: 22vw;
   background: url(../images/main2.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0;
 }
 .main3 {
   position: absolute;
-  width: 14vw;
-  height: 10vw;
+  width: 18vw;
+  height: 12vw;
   top: 19.3vw;
-  left: 66vw;
+  left: 73vw;
   background: url(../images/main3.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0;
 }
-.about:hover ~ .main1 {
+.about_images {
+  opacity: 0;
+  position: absolute;
+  left: 0vw;
+}
+.about:hover ~ .about_images {
   opacity: 1;
+  position: absolute;
 }
 .main4 {
-
+  position: absolute;
+  width: 17vw;
+  height: 24vw;
+  top: 14vw;
+  left: 71vw;
+  background: url(../images/main4.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main5 {
-
+  position: absolute;
+  width: 14vw;
+  height: 19vw;
+  top: 25.2vw;
+  left: 82vw;
+  background: url(../images/main5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.afisha_images {
+  opacity: 0;
+  position: absolute;
+  left: 0vw;
+}
+.afisha:hover ~ .afisha_images {
+  opacity: 1;
+  position: absolute;
 }
 .main6 {
-
+  position: absolute;
+  width: 19vw;
+  height: 18vw;
+  top: 17vw;
+  left: 8vw;
+  background: url(../images/main6.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main7 {
-
+  position: absolute;
+  width: 19vw;
+  height: 18vw;
+  top: 30.2vw;
+  left: 18vw;
+  background: url(../images/main7.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main8 {
-
+  position: absolute;
+  width: 19vw;
+  height: 18vw;
+  top: 26.2vw;
+  left: 63vw;
+  background: url(../images/main8.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.actors_images {
+  opacity: 0;
+  position: absolute;
+  left: 0vw;
+}
+.actors:hover ~ .actors_images {
+  opacity: 1;
+  position: absolute;
 }
 .main9 {
-
+  position: absolute;
+  width: 27vw;
+  height: 23vw;
+  top: 15.2vw;
+  left: 11vw;
+  background: url(../images/main9.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main10 {
-
+  position: absolute;
+  width: 42vw;
+  height: 37vw;
+  top: 13.2vw;
+  left: 56vw;
+  background: url(../images/main10.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shop_images {
+  opacity: 0;
+  position: absolute;
+  left: 0vw;
+}
+.shop:hover ~ .shop_images {
+  opacity: 1;
+  position: absolute;
 }
