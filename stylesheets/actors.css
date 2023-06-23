@@ -5,9 +5,6 @@ body {
   overflow-x: hidden;
   background: #D0DAFF;
 }
-.none {
-  display: none;
-}
 .actors {
   border-bottom: .2vw solid white;
 }

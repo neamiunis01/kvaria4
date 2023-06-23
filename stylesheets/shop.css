@@ -1,0 +1,336 @@
+html {
+  cursor: url('../images/fly.svg'), auto;
+}
+body {
+  overflow-x: hidden;
+  background: #B2C0F2;
+}
+a {
+  cursor: url('../images/fly_pointer.svg'), auto;
+}
+.none {
+  display: none;
+}
+.shop {
+  border-bottom: .2vw solid white;
+}
+.logo {
+  position: absolute;
+  margin: 1.5vw;
+  background: url(../images/logo_white.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bag {
+  position: absolute;
+  left: 2.9vw;
+  top: 7vw;
+  width: 30.6vw;
+  height: 25.6vw;
+  background: url(../images/bag.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.bag_text {
+  position: absolute;
+  left: 3.9vw;
+  top: 26vw;
+  width: 13.6vw;
+  height: 13.6vw;
+  background: url(../images/bag_text.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.bag_text > p {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 5.5vw 0vw;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notebook {
+  position: absolute;
+  left: 34.3vw;
+  top: 7vw;
+  width: 30.6vw;
+  height: 25.6vw;
+  background: url(../images/notebook.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.notebook_text {
+  position: absolute;
+  left: 36.9vw;
+  top: 26vw;
+  width: 13.6vw;
+  height: 13.6vw;
+  background: url(../images/notebook_text.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.notebook_text > p {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 5.5vw 0vw;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tshirt {
+  position: absolute;
+  left: 65.6vw;
+  top: 7vw;
+  width: 30.6vw;
+  height: 25.6vw;
+  background: url(../images/tshirt.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.tshirt_text {
+  position: absolute;
+  left: 78.8vw;
+  top: 26vw;
+  width: 13.6vw;
+  height: 13.6vw;
+  background: url(../images/tshirt_text.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.tshirt_text > p {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 5.5vw 0vw;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stickers {
+  position: absolute;
+  left: 2.9vw;
+  top: 33.4vw;
+  width: 30.6vw;
+  height: 25.6vw;
+  background: url(../images/stickers.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.stickers_text {
+  position: absolute;
+  left: 13.9vw;
+  top: 52vw;
+  width: 13.6vw;
+  height: 13.6vw;
+  background: url(../images/stickers_text.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.stickers_text > p {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 5.5vw 3vw;
+}
+.cup {
+  position: absolute;
+  left: 34.3vw;
+  top: 33.4vw;
+  width: 30.6vw;
+  height: 25.6vw;
+  background: url(../images/cup.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.cup_text {
+  position: absolute;
+  left: 45.9vw;
+  top: 52vw;
+  width: 13.6vw;
+  height: 13.6vw;
+  background: url(../images/cup_text.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.cup_text > p {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 5.5vw 3vw;
+}
+.hat {
+  position: absolute;
+  left: 65.6vw;
+  top: 33.4vw;
+  width: 30.6vw;
+  height: 25.6vw;
+  background: url(../images/hat.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.hat_text {
+  position: absolute;
+  left: 67.9vw;
+  top: 52vw;
+  width: 13.6vw;
+  height: 13.6vw;
+  background: url(../images/hat_text.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.hat_text > p {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 5.5vw 2.7vw;
+}
+.case {
+  position: absolute;
+  left: 2.9vw;
+  top: 59.7vw;
+  width: 30.6vw;
+  height: 25.6vw;
+  background: url(../images/case.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.case_text {
+  position: absolute;
+  left: 10.9vw;
+  top: 78vw;
+  width: 13.6vw;
+  height: 13.6vw;
+  background: url(../images/case_text.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.case_text > p {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 5.5vw 3vw;
+}
+.book {
+  position: absolute;
+  left: 34.3vw;
+  top: 59.7vw;
+  width: 30.6vw;
+  height: 25.6vw;
+  background: url(../images/book.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.book_text {
+  position: absolute;
+  left: 36.9vw;
+  top: 78vw;
+  width: 13.6vw;
+  height: 13.6vw;
+  background: url(../images/book_text.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.book_text > p {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 5.5vw 3vw;
+}
+.antistress {
+  position: absolute;
+  left: 65.6vw;
+  top: 59.7vw;
+  width: 30.6vw;
+  height: 25.6vw;
+  background: url(../images/antistress.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.antistress_text {
+  position: absolute;
+  left: 69.9vw;
+  top: 78vw;
+  width: 13.6vw;
+  height: 13.6vw;
+  background: url(../images/antistress_text.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.antistress_text > p {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 1.7vw;
+  font-weight: 700;
+  margin: 5.7vw 2.9vw;
+}
+.bag_anim, .notebook_anim, .tshirt_anim, .stickers_anim, .cup_anim, .hat_anim, .case_anim, .book_anim, .antistress_anim {
+  animation: items_text 3s infinite;
+}
+@keyframes items_text {
+  10% { rotate }
+}
+
+
+/* Меню */
+.main_menu {
+  display: flex;
+  position: absolute;
+  top: 2vw;
+  width: 37vw;
+  left: 60vw;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main_menu > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Circe Rounded Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+.main_menu > a:hover {
+  border-bottom: .2vw solid white;
+}
+.logo {
+  width: 5vw;
+  height: 2.2vw;
+}
+.menu_mobile {
+  display: none;
+}
