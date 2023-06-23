@@ -21,6 +21,13 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bag, .bag_text, .notebook, .notebook_text, .tshirt, .tshirt_text, .stickers, .stickers_text, .cup, .cup_text, .hat, .hat_text, .case, .case_text, .book, .book_text, .antistress, .antistress_text {
+  cursor: url('../images/fly_pointer.svg'), auto;
+}
+.bag:hover, .notebook:hover, .tshirt:hover, .stickers:hover, .cup:hover, .hat:hover, .case:hover, .book:hover, .antistress:hover {
+  border: 0.2vw solid #AEDC64;
+  border-radius: 1vw;
+}
 .items_text {
   animation: items_text 2s linear infinite;
   animation-play-state: paused;
@@ -32,432 +39,849 @@ a {
 .items_text:hover {
   animation-play-state: running;
 }
-.bag, .bag_text, .notebook, .notebook_text, .tshirt, .tshirt_text, .stickers, .stickers_text, .cup, .cup_text, .hat, .hat_text, .case, .case_text, .book, .book_text, .antistress, .antistress_text {
-  cursor: url('../images/fly_pointer.svg'), auto;
-}
-.bag:hover, .notebook:hover, .tshirt:hover, .stickers:hover, .cup:hover, .hat:hover, .case:hover, .book:hover, .antistress:hover {
-  border: 0.2vw solid #AEDC64;
-  border-radius: 1vw;
-}
+@media all and (min-width: 1024px) {
+  .bag {
+    position: absolute;
+    left: 2.9vw;
+    top: 7vw;
+    width: 30.6vw;
+    height: 25.6vw;
+    background: url(../images/bag.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .bag_text {
+    position: absolute;
+    left: 3.9vw;
+    top: 26vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .bag_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .bag_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 0vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .notebook {
+    position: absolute;
+    left: 34.3vw;
+    top: 7vw;
+    width: 30.6vw;
+    height: 25.6vw;
+    background: url(../images/notebook.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .notebook_text {
+    position: absolute;
+    left: 36.9vw;
+    top: 26vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .notebook_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .notebook_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 0vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tshirt {
+    position: absolute;
+    left: 65.6vw;
+    top: 7vw;
+    width: 30.6vw;
+    height: 25.6vw;
+    background: url(../images/tshirt.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .tshirt_text {
+    position: absolute;
+    left: 78.8vw;
+    top: 26vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .tshirt_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .tshirt_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 0vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .stickers {
+    position: absolute;
+    left: 2.9vw;
+    top: 33.4vw;
+    width: 30.6vw;
+    height: 25.6vw;
+    background: url(../images/stickers.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .stickers_text {
+    position: absolute;
+    left: 13.9vw;
+    top: 52vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .stickers_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .stickers_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .cup {
+    position: absolute;
+    left: 34.3vw;
+    top: 33.4vw;
+    width: 30.6vw;
+    height: 25.6vw;
+    background: url(../images/cup.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .cup_text {
+    position: absolute;
+    left: 45.9vw;
+    top: 52vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .cup_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .cup_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .hat {
+    position: absolute;
+    left: 65.6vw;
+    top: 33.4vw;
+    width: 30.6vw;
+    height: 25.6vw;
+    background: url(../images/hat.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .hat_text {
+    position: absolute;
+    left: 67.9vw;
+    top: 52vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .hat_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .hat_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 2.7vw;
+  }
+  .case {
+    position: absolute;
+    left: 2.9vw;
+    top: 59.7vw;
+    width: 30.6vw;
+    height: 25.6vw;
+    background: url(../images/case.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .case_text {
+    position: absolute;
+    left: 10.9vw;
+    top: 78vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .case_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .case_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .book {
+    position: absolute;
+    left: 34.3vw;
+    top: 59.7vw;
+    width: 30.6vw;
+    height: 25.6vw;
+    background: url(../images/book.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .book_text {
+    position: absolute;
+    left: 36.9vw;
+    top: 78vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .book_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .book_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .antistress {
+    position: absolute;
+    left: 65.6vw;
+    top: 59.7vw;
+    width: 30.6vw;
+    height: 25.6vw;
+    background: url(../images/antistress.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .antistress_text {
+    position: absolute;
+    left: 69.9vw;
+    top: 78vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .antistress_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .antistress_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 1.7vw;
+    font-weight: 700;
+    margin: 5.7vw 2.9vw;
+    color: black;
+  }
 
-.bag {
-  position: absolute;
-  left: 2.9vw;
-  top: 7vw;
-  width: 30.6vw;
-  height: 25.6vw;
-  background: url(../images/bag.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.bag_text {
-  position: absolute;
-  left: 3.9vw;
-  top: 26vw;
-  width: 13.6vw;
-  height: 13.6vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-.bag_text_bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.bag_text > p {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 2vw;
-  font-weight: 700;
-  margin: 5.5vw 0vw;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.notebook {
-  position: absolute;
-  left: 34.3vw;
-  top: 7vw;
-  width: 30.6vw;
-  height: 25.6vw;
-  background: url(../images/notebook.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.notebook_text {
-  position: absolute;
-  left: 36.9vw;
-  top: 26vw;
-  width: 13.6vw;
-  height: 13.6vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-.notebook_text_bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.notebook_text > p {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 2vw;
-  font-weight: 700;
-  margin: 5.5vw 0vw;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.tshirt {
-  position: absolute;
-  left: 65.6vw;
-  top: 7vw;
-  width: 30.6vw;
-  height: 25.6vw;
-  background: url(../images/tshirt.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.tshirt_text {
-  position: absolute;
-  left: 78.8vw;
-  top: 26vw;
-  width: 13.6vw;
-  height: 13.6vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-.tshirt_text_bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.tshirt_text > p {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 2vw;
-  font-weight: 700;
-  margin: 5.5vw 0vw;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.stickers {
-  position: absolute;
-  left: 2.9vw;
-  top: 33.4vw;
-  width: 30.6vw;
-  height: 25.6vw;
-  background: url(../images/stickers.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.stickers_text {
-  position: absolute;
-  left: 13.9vw;
-  top: 52vw;
-  width: 13.6vw;
-  height: 13.6vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-.stickers_text_bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.stickers_text > p {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 2vw;
-  font-weight: 700;
-  margin: 5.5vw 3vw;
-}
-.cup {
-  position: absolute;
-  left: 34.3vw;
-  top: 33.4vw;
-  width: 30.6vw;
-  height: 25.6vw;
-  background: url(../images/cup.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.cup_text {
-  position: absolute;
-  left: 45.9vw;
-  top: 52vw;
-  width: 13.6vw;
-  height: 13.6vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-.cup_text_bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.cup_text > p {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 2vw;
-  font-weight: 700;
-  margin: 5.5vw 3vw;
-}
-.hat {
-  position: absolute;
-  left: 65.6vw;
-  top: 33.4vw;
-  width: 30.6vw;
-  height: 25.6vw;
-  background: url(../images/hat.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.hat_text {
-  position: absolute;
-  left: 67.9vw;
-  top: 52vw;
-  width: 13.6vw;
-  height: 13.6vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-.hat_text_bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.hat_text > p {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 2vw;
-  font-weight: 700;
-  margin: 5.5vw 2.7vw;
-}
-.case {
-  position: absolute;
-  left: 2.9vw;
-  top: 59.7vw;
-  width: 30.6vw;
-  height: 25.6vw;
-  background: url(../images/case.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.case_text {
-  position: absolute;
-  left: 10.9vw;
-  top: 78vw;
-  width: 13.6vw;
-  height: 13.6vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-.case_text_bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.case_text > p {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 2vw;
-  font-weight: 700;
-  margin: 5.5vw 3vw;
-}
-.book {
-  position: absolute;
-  left: 34.3vw;
-  top: 59.7vw;
-  width: 30.6vw;
-  height: 25.6vw;
-  background: url(../images/book.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.book_text {
-  position: absolute;
-  left: 36.9vw;
-  top: 78vw;
-  width: 13.6vw;
-  height: 13.6vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-.book_text_bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.book_text > p {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 2vw;
-  font-weight: 700;
-  margin: 5.5vw 3vw;
-}
-.antistress {
-  position: absolute;
-  left: 65.6vw;
-  top: 59.7vw;
-  width: 30.6vw;
-  height: 25.6vw;
-  background: url(../images/antistress.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.antistress_text {
-  position: absolute;
-  left: 69.9vw;
-  top: 78vw;
-  width: 13.6vw;
-  height: 13.6vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-.antistress_text_bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.antistress_text > p {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 1.7vw;
-  font-weight: 700;
-  margin: 5.7vw 2.9vw;
-  color: black;
-}
+  /* Личные данные */
+  .buy_form {
+    position: absolute;
+    width: 46vw;
+    height: 32vw;
+    left: 26.7vw;
+    top: 9.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+    z-index: 3;
+  }
+  .done_button {
+    position: absolute;
+    margin: 19.8vw 20vw 1.5vw 20vw;
+    width: 6vw;
+    height: 6vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-input {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .telephone {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .mailme {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .buy_block {
+    position: absolute;
+    top: 8vw;
+  }
+  .buy_block > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+  }
+  h2 {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2.3vw;
+    font-weight: 700;
+    width: 100%;
+    top: 3vw;
+    text-align: center;
+  }
+  .esc_buy {
+    margin: 3vw 3vw 0vw 42vw;
+  }
 
-/* Личные данные */
-.buy_form {
-  position: absolute;
-  width: 46vw;
-  height: 32vw;
-  left: 26.7vw;
-  top: 9.7vw;
-  background-color: white;
-  border: 0.4vw solid #AEDC64;
-  border-radius: 2vw;
-  z-index: 3;
+  /* Меню */
+  .main_menu {
+    display: flex;
+    position: absolute;
+    top: 2vw;
+    width: 37vw;
+    left: 60vw;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main_menu > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Circe Rounded Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+  }
+  .main_menu > a:hover {
+    border-bottom: .2vw solid white;
+  }
+  .logo {
+    width: 5vw;
+    height: 2.2vw;
+  }
+  .menu_mobile {
+    display: none;
+  }
 }
-.done_button {
-  position: absolute;
-  margin: 19.8vw 20vw 1.5vw 20vw;
-  width: 6vw;
-  height: 6vw;
-  background: url(../images/done_white.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.form-input {
-  font-family: Circe Rounded Regular;
-  font-size: 1.3vw;
-  font-weight: 400;
-  background-color: #AEDC64;
-  margin: 1vw 2.5vw 1vw 2.5vw;
-  width: 40vw;
-  height: 1.5vw;
-  border: 0.4vw solid #AEDC64;
-  border-radius: 0.5vw;
-}
-.telephone {
-  font-family: Circe Rounded Regular;
-  font-size: 1.3vw;
-  font-weight: 400;
-  background-color: #AEDC64;
-  margin: 1vw 2.5vw 1vw 2.5vw;
-  width: 40vw;
-  height: 1.5vw;
-  border: 0.4vw solid #AEDC64;
-  border-radius: 0.5vw;
-}
-.mailme {
-  font-family: Circe Rounded Regular;
-  font-size: 1.3vw;
-  font-weight: 400;
-  background-color: #AEDC64;
-  margin: 1vw 2.5vw 1vw 2.5vw;
-  width: 40vw;
-  height: 1.5vw;
-  border: 0.4vw solid #AEDC64;
-  border-radius: 0.5vw;
-}
-.buy_block {
-  position: absolute;
-  top: 8vw;
-}
-.buy_block > p {
-  font-family: Circe Rounded Regular;
-  font-size: 1.3vw;
-  font-weight: 400;
-  margin: 1vw 2.5vw 1vw 2.5vw;
-  width: 40vw;
-  height: 1.5vw;
-}
-h2 {
-  position: absolute;
-  font-family: Circe Rounded Bold;
-  font-size: 2.3vw;
-  font-weight: 700;
-  width: 100%;
-  top: 3vw;
-  text-align: center;
-}
-.esc_buy {
-  margin: 3vw 3vw 0vw 42vw;
-}
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  .bag {
+    position: absolute;
+    left: 2.9vw;
+    top: 8vw;
+    width: 45%;
+    height: 37.6vw;
+    background: url(../images/bag.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .bag_text {
+    position: absolute;
+    left: 3.9vw;
+    top: 35vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .bag_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .bag_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 0vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .notebook {
+    position: absolute;
+    left: 51.3vw;
+    top: 8vw;
+    width: 45%;
+    height: 37.6vw;
+    background: url(../images/notebook.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .notebook_text {
+    position: absolute;
+    left: 58.9vw;
+    top: 35vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .notebook_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .notebook_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 0vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tshirt {
+    position: absolute;
+    left: 51.3vw;
+    top: 50vw;
+    width: 45%;
+    height: 37.6vw;
+    background: url(../images/tshirt.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .tshirt_text {
+    position: absolute;
+    left: 78.8vw;
+    top: 77vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .tshirt_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .tshirt_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 0vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .stickers {
+    position: absolute;
+    left: 2.9vw;
+    top: 50vw;
+    width: 45%;
+    height: 37.6vw;
+    background: url(../images/stickers.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .stickers_text {
+    position: absolute;
+    left: 13.9vw;
+    top: 77vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .stickers_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .stickers_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .cup {
+    position: absolute;
+    left: 2.9vw;
+    top: 92vw;
+    width: 45%;
+    height: 37.6vw;
+    background: url(../images/cup.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .cup_text {
+    position: absolute;
+    left: 8vw;
+    top: 119vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .cup_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .cup_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .hat {
+    position: absolute;
+    left: 51.3vw;
+    top: 92vw;
+    width: 45%;
+    height: 37.6vw;
+    background: url(../images/hat.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .hat_text {
+    position: absolute;
+    left: 61vw;
+    top: 119vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .hat_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .hat_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 2.7vw;
+  }
+  .case {
+    position: absolute;
+    left: 51.3vw;
+    top: 134vw;
+    width: 45%;
+    height: 37.6vw;
+    background: url(../images/case.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    }
+  .case_text {
+    position: absolute;
+    left: 55.9vw;
+    top: 161vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .case_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .case_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .book {
+    position: absolute;
+    left: 2.9vw;
+    top: 134vw;
+    width: 45%;
+    height: 37.6vw;
+    background: url(../images/book.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .book_text {
+    position: absolute;
+    left: 30.9vw;
+    top: 161vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .book_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .book_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .antistress {
+    position: absolute;
+    left: 2.9vw;
+    top: 176vw;
+    width: 45%;
+    height: 37.6vw;
+    background: url(../images/antistress.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .antistress_text {
+    position: absolute;
+    left: 10vw;
+    top: 206vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+  .antistress_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .antistress_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 1.7vw;
+    font-weight: 700;
+    margin: 5.7vw 2.9vw;
+    color: black;
+  }
 
-/* Меню */
-.main_menu {
-  display: flex;
-  position: absolute;
-  top: 2vw;
-  width: 37vw;
-  left: 60vw;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.main_menu > a {
-  text-decoration: none;
-  color: #ffffff;
-  font-family: Circe Rounded Regular;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.5vw;
-}
-.main_menu > a:hover {
-  border-bottom: .2vw solid white;
-}
-.logo {
-  width: 5vw;
-  height: 2.2vw;
-}
-.menu_mobile {
-  display: none;
+  /* Личные данные */
+  .buy_form {
+    position: absolute;
+    width: 46vw;
+    height: 32vw;
+    left: 26.7vw;
+    top: 9.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+    z-index: 3;
+  }
+  .done_button {
+    position: absolute;
+    margin: 19.8vw 20vw 1.5vw 20vw;
+    width: 6vw;
+    height: 6vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-input {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .telephone {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .mailme {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .buy_block {
+    position: absolute;
+    top: 8vw;
+  }
+  .buy_block > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+  }
+  h2 {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2.3vw;
+    font-weight: 700;
+    width: 100%;
+    top: 3vw;
+    text-align: center;
+  }
+  .esc_buy {
+    margin: 2vw 3vw 0vw 41vw;
+  }
+
+  /* Меню */
+  .main_menu {
+    display: flex;
+    position: absolute;
+    top: 2vw;
+    width: 54vw;
+    left: 43vw;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main_menu > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Circe Rounded Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+  }
+  .main_menu > a:hover {
+    border-bottom: .2vw solid white;
+  }
+  .logo {
+    width: 8.9vw;
+    height: 3.8vw;
+  }
+  .menu_mobile {
+    display: none;
+  }
 }
