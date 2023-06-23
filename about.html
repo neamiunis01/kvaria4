@@ -38,21 +38,28 @@
   <script src="javascripts/animation.js"></script>
 </head>
 <body>
-  <div class="main-wrapper">
     <div class="carousel">
-      <ul class="carousel__list">
-        <li class="carousel__item1"><h1>О ТЕАТРЕ</h1></li>
-        <li class="carousel__item2"></li>
-        <li class="carousel__item3">ИСТОРИЯ СОЗДАНИЯ</li>
-      </ul>
-    </div>
-
-    <button class="next"><img src="images/button_right.svg" alt="Image"></button>
-    <button class="prev"><img src="images/button_left.svg" alt="Image"></button>
-
-    <div class="about_text none">
-      <img class="esc" src="images/esc.svg" alt="">
-      <p>Квария – это необычный оперный театр, в котором выступают лягушки. Если вам хочется испытать новые эмоции, вы по адресу! Здесь вы услышите как и известные на весь мир, так и современные оперы в исполнении голосистых земноводных. Квакающие Фигаро и Сюзанна, прыгающий по сцене Евгений Онегин или свободолюбивая Кармен-лягушка – все это возможно в Кварии.</p>
+      <div class="all_slides">
+        <div class="slide_1">
+          <h1 class="theater">О ТЕАТРЕ</h1>
+          <div class="about_text none">
+            <img class="esc" src="images/esc.svg" alt="">
+            <p>Квария – это необычный оперный театр, в котором выступают лягушки. Если вам хочется испытать новые эмоции, вы по адресу! Здесь вы услышите как и известные на весь мир, так и современные оперы в исполнении голосистых земноводных. Квакающие Фигаро и Сюзанна, прыгающий по сцене Евгений Онегин или свободолюбивая Кармен-лягушка – все это возможно в Кварии.</p>
+          </div>
+        </div>
+        <div class="slide_2">
+          <h1 class="building">ЗДАНИЕ ТЕАТРА</h1>
+          <div class="building_text none">
+            <img class="esc" src="images/esc.svg" alt="">
+            <p>Здание театра передает атмосферу природной среды, в которой обитают лягушки. Большая его часть расположена на суше, а зал со сценой опускается под воду. Здание сделано из стеклоблока, что помогает создать светлое и просторное пространство внутри. В солнечные дни театр заполняется красивыми бликами, напоминающими воду.</p>
+          </div>
+        </div>
+        <div class="slide_3">
+          <a href="https://www.calameo.com/books/00732099349f2997bd971" class="book">КНИГА</a>
+        </div>
+      </div>
+      <div class="button_next"></div>
+      <div class="button_prev"></div>
     </div>
 
     <nav class="main_menu">
@@ -61,60 +68,16 @@
       <a href="actors.html" class="actors">актеры</a>
       <a href="shop.html" class="shop">магазин</a>
     </nav>
-    <div href="index.html" class="logo"></div>
-
-  <script>
-    var list = document.querySelector('.carousel__list');
-    var slides = document.querySelectorAll('.carousel__item1, .carousel__item2, .carousel__item3');
-
-    var indexOfFirst = 0;
-    var indexOfLast = slides.length - 1;
-
-    var firstSlide = slides[indexOfFirst];
-    var lastSlide = slides[indexOfLast];
-
-    var prevButton = document.querySelector('.prev');
-    var nextButton = document.querySelector('.next');
-
-    function scrollToPrev() {
-
-      list.insertBefore(lastSlide, firstSlide);
-        if (indexOfLast == 0) {
-          indexOfLast = slides.length - 1;
-        } else {
-          indexOfLast -= 1;
-        }
-      lastSlide = slides[indexOfLast];
-        if (indexOfFirst == 0) {
-          indexOfFirst = slides.length - 1;
-        } else {
-          indexOfFirst -= 1;
-        }
-      firstSlide = slides[indexOfFirst];
-    }
-
-
-    function scrollToNext() {
-      list.removeChild(firstSlide);
-      list.appendChild(firstSlide);
-      if (indexOfLast == slides.length - 1) {
-          indexOfLast = 0;
-        } else {
-          indexOfLast += 1;
-        }
-      lastSlide = slides[indexOfLast];
-        if (indexOfFirst == slides.length - 1) {
-          indexOfFirst = 0;
-        } else {
-          indexOfFirst += 1;
-        }
-      firstSlide = slides[indexOfFirst];
-    }
-
-
-
-    prevButton.addEventListener('click', scrollToPrev);
-    nextButton.addEventListener('click', scrollToNext);
-  </script>
+    <div class="menu_mobile"></div>
+    <div class="side_menu none">
+      <img class="esc_side" src="images/esc.svg" alt="">
+      <nav class="side_menu_text">
+        <a href="about.html" class="about">о театре</a>
+        <a href="afisha.html" class="afisha">афиша и билеты</a>
+        <a href="actors.html" class="actors">актеры</a>
+        <a href="shop.html" class="shop">магазин</a>
+      </nav>
+    </div>
+    <a href="index.html" class="logo"></a>
 </body>
 </html>

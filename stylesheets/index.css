@@ -1,5 +1,11 @@
+html {
+  cursor: url('../images/fly.svg'), auto;
+}
 body {
   overflow: hidden;
+}
+a {
+  cursor: url('../images/fly_pointer.svg'), auto;
 }
 @media all and (min-width: 1024px) {
   a {

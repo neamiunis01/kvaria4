@@ -49,7 +49,75 @@ $(document).ready(function(){
   });
 
   // О театре
-  $("h1").click(function(){
+  $(".theater").click(function(){
     $(".about_text").toggleClass('none')
   });
+  $(".building").click(function(){
+    $(".building_text").toggleClass('none')
+  });
+  $(".esc").click(function(){
+    $(".about_text").toggleClass('none');
+  });
+
+
+
+
+  // слайдер диспетчерской
+  // вперед
+  let slide = 0;
+  let position = 0;
+  $(".button_next").click(function(){
+      position += -71.7;
+
+      if (slide == 3)
+      {
+          slide = 0;
+      }
+      if (slide == 2) {
+          $(".carousel").css({'background-position': position+ 'vw'});
+          setTimeout(function() {
+              $(".all_slides").css({'transition': '.0s'});
+          }, 100);
+          position = 0;
+          setTimeout(function() {
+              $(".all_slides").css({'background-position': position +'vw'});
+          }, 500);
+          setTimeout(function() {
+              $(".all_slides").css({'transition': '.5s'});
+          }, 510);
+      }
+      if (slide < 2) {
+          $(".all_slides").css({'background-position': position+ 'vw'});
+      }
+      slide +=1;
+  });
+  // назад
+  $(".button_prev").click(function(){
+      position -= -71.7;
+
+      if (slide == -3)
+      {
+          slide = 0;
+      }
+      if (slide == -2) {
+          $(".all_slides").css({'background-position': position+ 'vw'});
+          setTimeout(function() {
+              $(".all_slides").css({'transition': '.0s'});
+          }, 100);
+          position = 0;
+          setTimeout(function() {
+              $(".all_slides").css({'background-position': position +'vw'});
+          }, 500);
+          setTimeout(function() {
+              $(".all_slides").css({'transition': '.5s'});
+          }, 510);
+      }
+      if (slide > -2) {
+          $(".all_slides").css({'background-position': position+ 'vw'});
+      }
+      slide -=1;
+  });
+
+
+
 });

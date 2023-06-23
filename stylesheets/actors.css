@@ -1,4 +1,513 @@
+html {
+  cursor: url('../images/fly.svg'), auto;
+}
+body {
+  overflow-x: hidden;
+  background: #D0DAFF;
+}
+.none {
+  display: none;
+}
+.actors {
+  border-bottom: .2vw solid white;
+}
+.logo {
+  position: absolute;
+  margin: 1.5vw;
+  background: url(../images/logo_white.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bold {
+  font-family: Circe Rounded Bold;
+}
+p {
+  font-family: Circe Rounded Regular;
+  font-size: 1.3vw;
+  font-weight: 400;
+  width: 16vw;
+  height: 11vw;
+  margin: 1.5vw;
+}
+.kva_1, .kva_2,.kva_3,.kva_4,.kva_5,.kva_6,.kva_7,.kva_8,.kva_9,.kva_10,.kva_11,.kva_12,.kva_13,.kva_14,.kva_15,.kva_16,.kva_17, .kva_18,.kva_19,.kva_20,.kva_21 {
+  position: absolute;
+  background: url(../images/kva_white.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a,.frog_1:hover, .frog_2:hover,.frog_3:hover,.frog_4:hover,.frog_5:hover,.frog_6:hover,.frog_7:hover,.frog_8:hover,.frog_9:hover,.frog_10:hover,.frog_11:hover,.frog_12:hover,.frog_13:hover {
+  z-index: 46;
+  cursor: url('../images/fly_pointer.svg'), auto;
+}
+.frog_1:hover ~ .frog_1_info, .frog_2:hover ~ .frog_2_info,.frog_3:hover ~ .frog_3_info,.frog_4:hover ~ .frog_4_info,.frog_5:hover ~ .frog_5_info,.frog_6:hover ~ .frog_6_info,
+.frog_7:hover ~ .frog_7_info,.frog_8:hover ~ .frog_8_info,.frog_9:hover ~ .frog_9_info,.frog_10:hover ~ .frog_10_info,.frog_11:hover ~ .frog_11_info,.frog_12:hover ~ .frog_12_info,.frog_13:hover  ~ .frog_13_info {
+  opacity: 1;
+  position: absolute;
+  z-index: 47;
+}
 @media all and (min-width: 1024px) {
+  .kva_1 {
+    top: 43vw;
+    left: 59vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 2;
+    scale: 90%;
+  }
+  .kva_2 {
+    top: 8vw;
+    left: 67vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 3;
+    scale: 90%;
+  }
+  .kva_3 {
+    top: 21vw;
+    left: 61vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 4;
+    scale: 65%;
+  }
+  .kva_4 {
+    top: 12vw;
+    left: 39vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 5;
+    scale: 35%;
+  }
+  .frog_2 {
+    position: absolute;
+    top: 5vw;
+    left: 40vw;
+    width: 18vw;
+    height: 18vw;
+    background: url(../images/frog_2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 6;
+  }
+  .frog_2_info {
+    position: absolute;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 7;
+    opacity: 0;
+    top: 14vw;
+    left: 53vw;
+  }
+  .kva_5 {
+    top: 3vw;
+    left: 17vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 8;
+    scale: 60%;
+  }
+  .frog_5 {
+    position: absolute;
+    top: 23vw;
+    left: 57vw;
+    width: 16vw;
+    height: 16.3vw;
+    background: url(../images/frog_5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+  }
+  .frog_5_info {
+    position: absolute;
+    top: 33vw;
+    left: 68vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 10;
+    opacity: 0;
+  }
+  .kva_6 {
+    top: 10vw;
+    left: 0vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 11;
+    scale: 55%;
+  }
+  .kva_7 {
+    top: 47vw;
+    left: -12vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 12;
+    scale: 65%;
+  }
+  .kva_8 {
+    top: 30vw;
+    left: 37vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 13;
+    scale: 60%;
+  }
+  .frog_4 {
+    position: absolute;
+    top: 27vw;
+    left: 33vw;
+    width: 16vw;
+    height: 16vw;
+    background: url(../images/frog_4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 14;
+  }
+  .frog_4_info {
+    position: absolute;
+    top: 35vw;
+    left: 45vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 15;
+    opacity: 0;
+  }
+  .frog_1 {
+    position: absolute;
+    top: 8vw;
+    left: 10vw;
+    width: 27vw;
+    height: 25vw;
+    background: url(../images/frog_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 16;
+  }
+  .frog_1_info {
+    position: absolute;
+    top: 25vw;
+    left: 4vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 17;
+    opacity: 0;
+  }
+  .kva_9 {
+    top: 28vw;
+    left: -7vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 18;
+    scale: 85%;
+  }
+  .frog_8 {
+    position: absolute;
+    top: 37vw;
+    left: 75vw;
+    width: 18vw;
+    height: 18vw;
+    background: url(../images/frog_8.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 19;
+  }
+  .frog_8_info {
+    position: absolute;
+    top: 46vw;
+    left: 67vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 20;
+    opacity: 0;
+  }
+  .frog_6 {
+    position: absolute;
+    top: 39vw;
+    left: 9vw;
+    width: 18vw;
+    height: 18vw;
+    background: url(../images/frog_6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 21;
+  }
+  .frog_6_info {
+    position: absolute;
+    top: 49vw;
+    left: 21vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 22;
+    opacity: 0;
+  }
+  .kva_10 {
+    top: 58vw;
+    left: 15vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 23;
+    scale: 80%;
+  }
+  .frog_7 {
+    position: absolute;
+    top: 43vw;
+    left: 42vw;
+    width: 29vw;
+    height: 28.6vw;
+    background: url(../images/frog_7.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 24;
+  }
+  .frog_7_info {
+    position: absolute;
+    top: 61vw;
+    left: 62vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 25;
+    opacity: 0;
+  }
+  .frog_11 {
+    position: absolute;
+    top: 71vw;
+    left: 33vw;
+    width: 16.4vw;
+    height: 16.6vw;
+    background: url(../images/frog_11.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 26;
+  }
+  .frog_11_info {
+    position: absolute;
+    top: 80vw;
+    left: 22vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 27;
+    opacity: 0;
+  }
+  .frog_9 {
+    position: absolute;
+    top: 56vw;
+    left: 4vw;
+    width: 29vw;
+    height: 28.6vw;
+    background: url(../images/frog_9.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 28;
+  }
+  .frog_9_info {
+    position: absolute;
+    top: 60vw;
+    left: 26vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 29;
+    opacity: 0;
+  }
+  .frog_3 {
+    position: absolute;
+    top: 8vw;
+    left: 75vw;
+    width: 23vw;
+    height: 22.6vw;
+    background: url(../images/frog_3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 30;
+  }
+  .frog_3_info {
+    position: absolute;
+    top: 23vw;
+    left: 70vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 31;
+    opacity: 0;
+  }
+  .kva_11 {
+    top: 41vw;
+    left: 9vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 32;
+    scale: 50%;
+  }
+  .kva_12 {
+    top: 76vw;
+    left: 1vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 33;
+    scale: 60%;
+  }
+  .kva_13 {
+    top: 68vw;
+    left: -11vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 34;
+    scale: 30%;
+  }
+  .kva_14 {
+    top: 91vw;
+    left: 27vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 35;
+    scale: 30%;
+  }
+  .kva_15 {
+    top: 95vw;
+    left: 0vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 36;
+    scale: 100%;
+  }
+  .kva_16 {
+    top: 79vw;
+    left: 31vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 37;
+    scale: 60%;
+  }
+  .frog_12 {
+    position: absolute;
+    top: 74vw;
+    left: 42vw;
+    width: 37vw;
+    height: 32.6vw;
+    background: url(../images/frog_12.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 38;
+  }
+  .frog_12_info {
+    position: absolute;
+    top: 93vw;
+    left: 38vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 39;
+    opacity: 0;
+  }
+  .kva_17 {
+    top: 97vw;
+    left: 45vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 40;
+    scale: 45%;
+  }
+  .kva_18 {
+    top: 87vw;
+    left: 64vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 41;
+    scale: 65%;
+  }
+  .frog_13 {
+    position: absolute;
+    top: 83vw;
+    left: 19vw;
+    width: 19vw;
+    height: 17.6vw;
+    background: url(../images/frog_13.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 31;
+  }
+  .frog_13_info {
+    position: absolute;
+    top: 91vw;
+    left: 8vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 42;
+    opacity: 0;
+  }
+  .kva_19 {
+    top: 59vw;
+    left: 53vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 43;
+    scale: 80%;
+  }
+  .frog_10 {
+    position: absolute;
+    top: 60vw;
+    left: 74vw;
+    width: 22vw;
+    height: 21.6vw;
+    background: url(../images/frog_10.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 44;
+  }
+  .frog_10_info {
+    position: absolute;
+    top: 73vw;
+    left: 69vw;
+    background-color: white;
+    border: .3vw solid #AEDC64;
+    border-radius: 1vw;
+    z-index: 45;
+    opacity: 0;
+  }
+  .kva_20 {
+    top: 74vw;
+    left: 64vw;
+    width: 40vw;
+    height: 13.4vw;
+    z-index: 46;
+    scale: 50%;
+  }
+
+  /* Меню */
+  .main_menu {
+    display: flex;
+    position: absolute;
+    top: 2vw;
+    width: 37vw;
+    left: 60vw;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main_menu > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Circe Rounded Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+  }
+  .main_menu > a:hover {
+    border-bottom: .2vw solid white;
+  }
+  .logo {
+    width: 5vw;
+    height: 2.2vw;
+  }
+  .menu_mobile {
+    display: none;
+  }
 }
 @media all and (min-width: 600px) and (max-width: 1023px) {
 }
