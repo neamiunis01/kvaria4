@@ -21,6 +21,24 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.items_text {
+  animation: items_text 2s linear infinite;
+  animation-play-state: paused;
+}
+@keyframes items_text {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+.items_text:hover {
+  animation-play-state: running;
+}
+.bag, .bag_text, .notebook, .notebook_text, .tshirt, .tshirt_text, .stickers, .stickers_text, .cup, .cup_text, .hat, .hat_text, .case, .case_text, .book, .book_text, .antistress, .antistress_text {
+  cursor: url('../images/fly_pointer.svg'), auto;
+}
+.bag:hover, .notebook:hover, .tshirt:hover, .stickers:hover, .cup:hover, .hat:hover, .case:hover, .book:hover, .antistress:hover {
+  border: 0.2vw solid #AEDC64;
+  border-radius: 1vw;
+}
 
 .bag {
   position: absolute;
@@ -39,10 +57,14 @@ a {
   top: 26vw;
   width: 13.6vw;
   height: 13.6vw;
-  background: url(../images/bag_text.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
+}
+.bag_text_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .bag_text > p {
   position: absolute;
@@ -73,10 +95,14 @@ a {
   top: 26vw;
   width: 13.6vw;
   height: 13.6vw;
-  background: url(../images/notebook_text.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
+}
+.notebook_text_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .notebook_text > p {
   position: absolute;
@@ -107,10 +133,14 @@ a {
   top: 26vw;
   width: 13.6vw;
   height: 13.6vw;
-  background: url(../images/tshirt_text.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
+}
+.tshirt_text_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .tshirt_text > p {
   position: absolute;
@@ -141,10 +171,14 @@ a {
   top: 52vw;
   width: 13.6vw;
   height: 13.6vw;
-  background: url(../images/stickers_text.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
+}
+.stickers_text_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .stickers_text > p {
   position: absolute;
@@ -170,10 +204,14 @@ a {
   top: 52vw;
   width: 13.6vw;
   height: 13.6vw;
-  background: url(../images/cup_text.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
+}
+.cup_text_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .cup_text > p {
   position: absolute;
@@ -199,10 +237,14 @@ a {
   top: 52vw;
   width: 13.6vw;
   height: 13.6vw;
-  background: url(../images/hat_text.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
+}
+.hat_text_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .hat_text > p {
   position: absolute;
@@ -228,10 +270,14 @@ a {
   top: 78vw;
   width: 13.6vw;
   height: 13.6vw;
-  background: url(../images/case_text.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
+}
+.case_text_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .case_text > p {
   position: absolute;
@@ -257,10 +303,14 @@ a {
   top: 78vw;
   width: 13.6vw;
   height: 13.6vw;
-  background: url(../images/book_text.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
+}
+.book_text_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .book_text > p {
   position: absolute;
@@ -286,10 +336,14 @@ a {
   top: 78vw;
   width: 13.6vw;
   height: 13.6vw;
-  background: url(../images/antistress_text.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
+}
+.antistress_text_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .antistress_text > p {
   position: absolute;
@@ -297,14 +351,87 @@ a {
   font-size: 1.7vw;
   font-weight: 700;
   margin: 5.7vw 2.9vw;
-}
-.bag_anim, .notebook_anim, .tshirt_anim, .stickers_anim, .cup_anim, .hat_anim, .case_anim, .book_anim, .antistress_anim {
-  animation: items_text 3s infinite;
-}
-@keyframes items_text {
-  10% { rotate }
+  color: black;
 }
 
+/* Личные данные */
+.buy_form {
+  position: absolute;
+  width: 46vw;
+  height: 32vw;
+  left: 26.7vw;
+  top: 9.7vw;
+  background-color: white;
+  border: 0.4vw solid #AEDC64;
+  border-radius: 2vw;
+  z-index: 3;
+}
+.done_button {
+  position: absolute;
+  margin: 19.8vw 20vw 1.5vw 20vw;
+  width: 6vw;
+  height: 6vw;
+  background: url(../images/done_white.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-input {
+  font-family: Circe Rounded Regular;
+  font-size: 1.3vw;
+  font-weight: 400;
+  background-color: #AEDC64;
+  margin: 1vw 2.5vw 1vw 2.5vw;
+  width: 40vw;
+  height: 1.5vw;
+  border: 0.4vw solid #AEDC64;
+  border-radius: 0.5vw;
+}
+.telephone {
+  font-family: Circe Rounded Regular;
+  font-size: 1.3vw;
+  font-weight: 400;
+  background-color: #AEDC64;
+  margin: 1vw 2.5vw 1vw 2.5vw;
+  width: 40vw;
+  height: 1.5vw;
+  border: 0.4vw solid #AEDC64;
+  border-radius: 0.5vw;
+}
+.mailme {
+  font-family: Circe Rounded Regular;
+  font-size: 1.3vw;
+  font-weight: 400;
+  background-color: #AEDC64;
+  margin: 1vw 2.5vw 1vw 2.5vw;
+  width: 40vw;
+  height: 1.5vw;
+  border: 0.4vw solid #AEDC64;
+  border-radius: 0.5vw;
+}
+.buy_block {
+  position: absolute;
+  top: 8vw;
+}
+.buy_block > p {
+  font-family: Circe Rounded Regular;
+  font-size: 1.3vw;
+  font-weight: 400;
+  margin: 1vw 2.5vw 1vw 2.5vw;
+  width: 40vw;
+  height: 1.5vw;
+}
+h2 {
+  position: absolute;
+  font-family: Circe Rounded Bold;
+  font-size: 2.3vw;
+  font-weight: 700;
+  width: 100%;
+  top: 3vw;
+  text-align: center;
+}
+.esc_buy {
+  margin: 3vw 3vw 0vw 42vw;
+}
 
 /* Меню */
 .main_menu {

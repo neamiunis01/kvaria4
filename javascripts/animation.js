@@ -59,7 +59,38 @@ $(document).ready(function(){
     $(".about_text").toggleClass('none');
   });
 
+  // Магазин
+  $(".bag_group").click(function(){
+      $(".buy_form").toggleClass('none')
+  });
+  $(".notebook_group").click(function(){
+      $(".buy_form").toggleClass('none')
+  });
+  $(".tshirt_group").click(function(){
+      $(".buy_form").toggleClass('none')
+  });
+  $(".stickers_group").click(function(){
+      $(".buy_form").toggleClass('none')
+  });
+  $(".cup_group").click(function(){
+      $(".buy_form").toggleClass('none')
+  });
+  $(".hat_group").click(function(){
+      $(".buy_form").toggleClass('none')
+  });
+  $(".case_group").click(function(){
+      $(".buy_form").toggleClass('none')
+  });
+  $(".book_group").click(function(){
+      $(".buy_form").toggleClass('none')
+  });
+  $(".esc_buy").click(function(){
+      $(".buy_form").toggleClass('none')
+  });
 
+  $(".done_button").click(function(){
+      $(".buy_form").toggleClass('none');
+  });
 
 
   // слайдер диспетчерской
@@ -117,7 +148,4 @@ $(document).ready(function(){
       }
       slide -=1;
   });
-
-
-
 });

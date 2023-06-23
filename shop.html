@@ -7,75 +7,84 @@
     <title>Магазин</title>
     <link rel="stylesheet" href="stylesheets/shop.css">
     <link rel="stylesheet" href="stylesheets/font.css">
-    <style media="screen">
-      body::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 92vw;
-      background: url(images/shop.svg);
-      background-repeat: no-repeat;
-      opacity: .3;
-      }
-    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="javascripts/animation.js"></script>
   </head>
   <body>
     <div class="bag_group">
       <div class="bag"></div>
       <div class="bag_text">
+        <img class="bag_text_bg items_text" src="images/bag_text.svg" alt="">
         <p>700 руб.</p>
       </div>
     </div>
     <div class="notebook_group">
       <div class="notebook"></div>
       <div class="notebook_text">
+        <img class="notebook_text_bg items_text" src="images/notebook_text.svg" alt="">
         <p>600 руб.</p>
       </div>
     </div>
     <div class="tshirt_group">
       <div class="tshirt"></div>
       <div class="tshirt_text">
+        <img class="tshirt_text_bg items_text" src="images/tshirt_text.svg" alt="">
         <p>1500 руб.</p>
       </div>
     </div>
     <div class="stickers_group">
       <div class="stickers"></div>
       <div class="stickers_text">
+        <img class="stickers_text_bg items_text" src="images/stickers_text.svg" alt="">
         <p>250 руб.</p>
       </div>
     </div>
     <div class="cup_group">
       <div class="cup"></div>
       <div class="cup_text">
+        <img class="cup_text_bg items_text" src="images/cup_text.svg" alt="">
         <p>800 руб.</p>
       </div>
     </div>
     <div class="hat_group">
       <div class="hat"></div>
       <div class="hat_text">
+        <img class="hat_text_bg items_text" src="images/hat_text.svg" alt="">
         <p>1000 руб.</p>
       </div>
     </div>
     <div class="case_group">
       <div class="case"></div>
       <div class="case_text">
+        <img class="case_text_bg items_text" src="images/case_text.svg" alt="">
         <p>500 руб.</p>
       </div>
     </div>
     <div class="book_group">
       <div class="book"></div>
       <div class="book_text">
+        <img class="book_text_bg items_text" src="images/book_text.svg" alt="">
         <p>900 руб.</p>
       </div>
     </div>
     <div class="antistress_group">
       <div class="antistress"></div>
-      <div class="antistress_text">
-        <p>бесплатно</p>
+        <a href="https://neamiunis01.github.io/kvaria_3/" class="antistress_text">
+          <img class="antistress_text_bg items_text" src="images/antistress_text.svg" alt="">
+          <p>бесплатно</p>
+        </a>
       </div>
-    </div>
+      <div class="buy_form none">
+        <img class="esc_buy" src="images/esc.svg" alt="">
+        <h2>Оставить заявку</h2>
+        <div class="buy_block">
+          <input class="form-input" placeholder="Имя и Фамилия">
+          <input type="tel" class="telephone" placeholder="Номер телефона">
+          <input type="email" class="mailme" placeholder="E-mail">
+          <p>С вами свяжется наш менеджер для подтверждения покупки!</p>
+        </div>
+        <div class="done_button"></div>
+      </div>
     <nav class="main_menu">
       <a href="logo.html" class="about">о театре</a>
       <a href="afisha.html" class="afisha">афиша и билеты</a>

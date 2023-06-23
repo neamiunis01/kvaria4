@@ -502,7 +502,7 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
     border: 0.4vw solid #AEDC64;
     border-radius: 0.5vw;
   }
-  #name_block > p {
+  .name_block > p {
     font-family: Circe Rounded Regular;
     font-size: 1.3vw;
     font-weight: 400;
@@ -872,7 +872,7 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
   .figaro_button {
     border: 0.15vw solid black;
     border-radius: 0.5vw;
-    width: 14.1vw;
+    width: 14.5vw;
     height: 3.5vw;
     margin: 2.4vw 0vw 1.9vw 1.5vw;
   }
@@ -960,8 +960,7 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
     width: 100%;
   }
   .esc {
-    margin: 3vw 3vw 0vw 42vw;
-
+    margin: 2vw 3vw 0vw 41vw;
   }
 
   /* Выбор места */
@@ -1055,7 +1054,7 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
     border: 0.4vw solid #AEDC64;
     border-radius: 0.5vw;
   }
-  #name_block > p {
+  .name_block > p {
     font-family: Circe Rounded Regular;
     font-size: 1.3vw;
     font-weight: 400;
@@ -1617,7 +1616,7 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
     border: 0.4vw solid #AEDC64;
     border-radius: 0.5vw;
   }
-  #name_block > p {
+  .name_block > p {
     font-family: Circe Rounded Regular;
     font-size: 3.5vw;
     font-weight: 400;
@@ -1630,7 +1629,7 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
   .thankyou_form {
     position: absolute;
     width: 67vw;
-    height: 50.5vw;
+    height: 53.5vw;;
     left: 15.7vw;
     top: 59.7vw;
     background-color: white;
@@ -1708,10 +1707,9 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
     border-bottom: .9vw solid black;
   }
   .esc {
-    margin: 4vw 4vw 0vw 36vw;
-
-    width: 10vw;
-    height: 7vw;
+    margin: 4vw 4vw 0vw 58vw;
+    width: 6vw;
+    height: 5vw;
   }
 
   /* Кнопки */
