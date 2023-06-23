@@ -1517,7 +1517,6 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
     width: 100%;
   }
   .esc_side {
-
     width: 10vw;
     height: 9vw;
     position: absolute;
@@ -1683,6 +1682,7 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
     width: 70%;
     height: 520vw;
     background-color: white;
+    z-index: 4;
   }
   .side_menu_text {
     display: flex;

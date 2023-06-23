@@ -791,7 +791,9 @@ a {
   }
   .done_button {
     position: absolute;
-    margin: 19.8vw 20vw 1.5vw 20vw;
+    margin: 19
+
+    .8vw 20vw 1.5vw 20vw;
     width: 6vw;
     height: 6vw;
     background: url(../images/done_white.svg);
@@ -883,5 +885,476 @@ a {
   }
   .menu_mobile {
     display: none;
+  }
+}
+@media all and (min-width: 1px) and (max-width: 599px) {
+  .items {
+    position: absolute;
+    margin-top: 3vw;
+  }
+  .bag {
+    position: absolute;
+    left: 2.9vw;
+    top: 16vw;
+    width: 93.5%;
+    height: 76.6vw;
+    background: url(../images/bag.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .bag_text {
+    position: absolute;
+    left: 15.9vw;
+    top: 74vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    scale: 2.5;
+  }
+  .bag_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .bag_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 0vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .notebook {
+    position: absolute;
+    left: 2.9vw;
+    top: 101vw;
+    width: 93.5%;
+    height: 76.6vw;
+    background: url(../images/notebook.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .notebook_text {
+    position: absolute;
+    left: 58.9vw;
+    top: 158vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    scale: 2.5;
+  }
+  .notebook_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .notebook_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 0vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tshirt {
+    position: absolute;
+    left: 2.9vw;
+    top: 185vw;
+    width: 93.5%;
+    height: 76.6vw;
+    background: url(../images/tshirt.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .tshirt_text {
+    position: absolute;
+    left: 22.8vw;
+    top: 244vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    scale: 2.5;
+  }
+  .tshirt_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .tshirt_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 0vw;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .stickers {
+    position: absolute;
+    left: 2.9vw;
+    top: 270vw;
+    width: 93.5%;
+    height: 76.6vw;
+    background: url(../images/stickers.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .stickers_text {
+    position: absolute;
+    left: 69.9vw;
+    top: 328vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    scale: 2.5;
+  }
+  .stickers_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .stickers_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .cup {
+    position: absolute;
+    left: 2.9vw;
+    top: 354vw;
+    width: 93.5%;
+    height: 76.6vw;
+    background: url(../images/cup.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .cup_text {
+    position: absolute;
+    left: 27vw;
+    top: 411vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    scale: 2.5;
+  }
+  .cup_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .cup_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .hat {
+    position: absolute;
+    left: 2.9vw;
+    top: 438vw;
+    width: 93.5%;
+    height: 76.6vw;
+    background: url(../images/hat.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .hat_text {
+    position: absolute;
+    left: 58vw;
+    top: 496vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    scale: 2.5;
+  }
+  .hat_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .hat_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 2.7vw;
+  }
+  .case {
+    position: absolute;
+    left: 2.9vw;
+    top: 522vw;
+    width: 93.5%;
+    height: 76.6vw;
+    background: url(../images/case.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    }
+  .case_text {
+    position: absolute;
+    left: 15.9vw;
+    top: 580vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    scale: 2.5;
+  }
+  .case_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .case_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .book {
+    position: absolute;
+    left: 2.9vw;
+    top: 605vw;
+    width: 93.5%;
+    height: 76.6vw;
+    background: url(../images/book.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .book_text {
+    position: absolute;
+    left: 30.9vw;
+    top: 662vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    scale: 2.5;
+  }
+  .book_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .book_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5.5vw 3vw;
+  }
+  .antistress {
+    position: absolute;
+    left: 2.9vw;
+    top: 688vw;
+    width: 93.5%;
+    height: 76.6vw;
+    background: url(../images/antistress.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .antistress_text {
+    position: absolute;
+    left: 21vw;
+    top: 749vw;
+    width: 13.6vw;
+    height: 13.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    scale: 2.5;
+  }
+  .antistress_text_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .antistress_text > p {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 1.7vw;
+    font-weight: 700;
+    margin: 5.7vw 2.9vw;
+    color: black;
+  }
+
+  /* Личные данные */
+  .buy_form {
+    position: absolute;
+    width: 46vw;
+    height: 32vw;
+    left: 26.7vw;
+    top: 9.7vw;
+    background-color: white;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 2vw;
+    z-index: 3;
+  }
+  .done_button {
+    position: absolute;
+    margin: 19
+
+    .8vw 20vw 1.5vw 20vw;
+    width: 6vw;
+    height: 6vw;
+    background: url(../images/done_white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-input {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .telephone {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .mailme {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    background-color: #AEDC64;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+    border: 0.4vw solid #AEDC64;
+    border-radius: 0.5vw;
+  }
+  .buy_block {
+    position: absolute;
+    top: 8vw;
+  }
+  .buy_block > p {
+    font-family: Circe Rounded Regular;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 1vw 2.5vw 1vw 2.5vw;
+    width: 40vw;
+    height: 1.5vw;
+  }
+  h2 {
+    position: absolute;
+    font-family: Circe Rounded Bold;
+    font-size: 2.3vw;
+    font-weight: 700;
+    width: 100%;
+    top: 3vw;
+    text-align: center;
+  }
+  .esc_buy {
+    margin: 2vw 3vw 0vw 41vw;
+  }
+
+  /* Меню */
+  .main_menu {
+    display: none;
+  }
+  .logo {
+    width: 13.9vw;
+    height: 5.8vw;
+  }
+  .menu_mobile {
+    position: absolute;
+    top: 4vw;
+    left: 87vw;
+    width: 10vw;
+    height: 7vw;
+    background: url(../images/menu_mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .side_menu {
+    position: absolute;
+    top: 0vw;
+    right: 0vw;
+    width: 70%;
+    height: 520vw;
+    background-color: white;
+    z-index: 3;
+  }
+  .side_menu_text {
+    display: flex;
+    position: absolute;
+    top: 27vw;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .side_menu_text > a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Circe Rounded Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.5vw;
+    text-align: right;
+    margin: 0vw 4vw;
+    line-height: 16vw;
+  }
+  .side_menu_text > a:hover {
+    border-bottom: .9vw solid black;
+  }
+  .esc {
+    margin: 4vw 4vw 0vw 58vw;
+    width: 6vw;
+    height: 5vw;
+  }
+  .esc_side {
+    width: 10vw;
+    height: 9vw;
+    position: absolute;
+    top: 4vw;
+    right: 3vw;
   }
 }
