@@ -1124,9 +1124,6 @@ a, .carmen_button, .onegin_button, .workshop_button, .traviata_button, .figaro_b
   .menu_mobile {
     display: none;
   }
-  .afisha {
-    border-bottom: .2vw solid white;
-  }
 }
 @media all and (min-width: 1px) and (max-width: 599px) {
   .bg {

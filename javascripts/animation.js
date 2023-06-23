@@ -39,16 +39,62 @@ $(document).ready(function(){
       $(".thankyou_form").toggleClass('none')
   });
 
-  $(".menu_mobile").click(function(){
-      $(".side_menu").toggleClass('none');
-      $(".main_menu").toggleClass('none');
-  });
-
-  $(".esc_side").click(function(){
-      $(".side_menu").toggleClass('none')
-  });
-
   // О театре
+  // Слайдер вперед
+  let slide = 0;
+  let position = 0;
+  $(".button_next").click(function(){
+      position += -71.7;
+
+      if (slide == 3)
+      {
+          slide = 0;
+      }
+      if (slide == 2) {
+          $(".carousel").css({'background-position': position+ 'vw'});
+          setTimeout(function() {
+              $(".all_slides").css({'transition': '.0s'});
+          }, 100);
+          position = 0;
+          setTimeout(function() {
+              $(".all_slides").css({'background-position': position +'vw'});
+          }, 500);
+          setTimeout(function() {
+              $(".all_slides").css({'transition': '.5s'});
+          }, 510);
+      }
+      if (slide < 2) {
+          $(".all_slides").css({'background-position': position+ 'vw'});
+      }
+      slide +=1;
+  });
+  // Назад
+  $(".button_prev").click(function(){
+      position -= -71.7;
+
+      if (slide == -3)
+      {
+          slide = 0;
+      }
+      if (slide == -2) {
+          $(".all_slides").css({'background-position': position+ 'vw'});
+          setTimeout(function() {
+              $(".all_slides").css({'transition': '.0s'});
+          }, 100);
+          position = 0;
+          setTimeout(function() {
+              $(".all_slides").css({'background-position': position +'vw'});
+          }, 500);
+          setTimeout(function() {
+              $(".all_slides").css({'transition': '.5s'});
+          }, 510);
+      }
+      if (slide > -2) {
+          $(".all_slides").css({'background-position': position+ 'vw'});
+      }
+      slide -=1;
+  });
+
   $(".theater").click(function(){
     $(".about_text").toggleClass('none')
   });
@@ -87,65 +133,18 @@ $(document).ready(function(){
   $(".esc_buy").click(function(){
       $(".buy_form").toggleClass('none')
   });
-
   $(".done_button").click(function(){
       $(".buy_form").toggleClass('none');
   });
 
-
-  // слайдер диспетчерской
-  // вперед
-  let slide = 0;
-  let position = 0;
-  $(".button_next").click(function(){
-      position += -71.7;
-
-      if (slide == 3)
-      {
-          slide = 0;
-      }
-      if (slide == 2) {
-          $(".carousel").css({'background-position': position+ 'vw'});
-          setTimeout(function() {
-              $(".all_slides").css({'transition': '.0s'});
-          }, 100);
-          position = 0;
-          setTimeout(function() {
-              $(".all_slides").css({'background-position': position +'vw'});
-          }, 500);
-          setTimeout(function() {
-              $(".all_slides").css({'transition': '.5s'});
-          }, 510);
-      }
-      if (slide < 2) {
-          $(".all_slides").css({'background-position': position+ 'vw'});
-      }
-      slide +=1;
+  // Боковое меню
+  $(".menu_mobile").click(function(){
+      $(".side_menu").toggleClass('none');
+      $(".main_menu").toggleClass('none');
   });
-  // назад
-  $(".button_prev").click(function(){
-      position -= -71.7;
 
-      if (slide == -3)
-      {
-          slide = 0;
-      }
-      if (slide == -2) {
-          $(".all_slides").css({'background-position': position+ 'vw'});
-          setTimeout(function() {
-              $(".all_slides").css({'transition': '.0s'});
-          }, 100);
-          position = 0;
-          setTimeout(function() {
-              $(".all_slides").css({'background-position': position +'vw'});
-          }, 500);
-          setTimeout(function() {
-              $(".all_slides").css({'transition': '.5s'});
-          }, 510);
-      }
-      if (slide > -2) {
-          $(".all_slides").css({'background-position': position+ 'vw'});
-      }
-      slide -=1;
+  $(".esc_side").click(function(){
+      $(".side_menu").toggleClass('none')
   });
+
 });
